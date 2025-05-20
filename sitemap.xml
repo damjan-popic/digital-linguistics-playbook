@@ -9,11 +9,11 @@
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/cat-tools/06_Import_termbase_into_memoQ/</loc>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/automation/16__Custom_stop_word_list_for_spaCy/</loc>
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/cat-tools/07_Forbidden_term_QA_in_CAT_tool/</loc>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/cat-tools/06_Import_termbase_into_memoQ/</loc>
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
@@ -25,7 +25,55 @@
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/terminology/01_Import_terminology_Excel_TBX/</loc>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/cat-tools/11__Standardise_project_file_naming/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/cat-tools/12__Align_bilingual_docs_with_LF_Aligner/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/cat-tools/13__Build_TM_with_OmegaT/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/corpora/21__Scrape_single_topic_website/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/corpora/23__Filter_Common_Crawl_with_CC_Net/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/corpora/29__Sentence_align_EuroParl_with_hunalign/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/mt-eval/32__Evaluate_MT_with_COMET_22/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/nlp/20__Cross_lingual_embeddings_with_fastText/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/nlp/28__Entity_extraction_with_spaCy/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/pdf/22__Bulk_download_PDFs_OCR/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/subtitling/10__Translate_subtitles_via_DeepL_MKVToolNix/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/subtitling/30__Harvest_bilingual_subtitles_via_OpenSubtitles/</loc>
+         <lastmod>2025-05-20</lastmod>
+    </url>
+    <url>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/subtitling/34__Auto_subtitle_burn_in_with_FFmpeg/</loc>
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
@@ -49,119 +97,27 @@
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/10__Translate_subtitles_via_DeepL_MKVToolNix/</loc>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/terminology/07_Forbidden_term_QA_in_CAT_tool/</loc>
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/11__Standardise_project_file_naming/</loc>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/terminology/14__Extract_term_candidates_with_AntConc/</loc>
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/12__Align_bilingual_docs_with_LF_Aligner/</loc>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/terminology/15__Generate_terminology_with_Termostat/</loc>
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/13__Build_TM_with_OmegaT/</loc>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/terminology/35__Interactive_term_frequency_dashboard/</loc>
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/14__Extract_term_candidates_with_AntConc/</loc>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/visualize/19__Visualise_frequency_list_with_Voyant/</loc>
          <lastmod>2025-05-20</lastmod>
     </url>
     <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/15__Generate_terminology_with_Termostat/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/16__Custom_stop_word_list_for_spaCy/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/17__Annotate_corpus_with_UDPipe/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/18__Query_corpus_with_CQPweb/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/19__Visualise_frequency_list_with_Voyant/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/20__Cross_lingual_embeddings_with_fastText/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/21__Scrape_single_topic_website/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/22__Bulk_download_PDFs_OCR/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/23__Filter_Common_Crawl_with_CC_Net/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/24__Deduplicate_with_MinHash/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/25__Language_ID_filter_with_fastText/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/26__Collocation_graph_AntConc_Cytoscape/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/27__Dispersion_plot_in_LancsBox/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/28__Entity_extraction_with_spaCy/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/29__Sentence_align_EuroParl_with_hunalign/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/30__Harvest_bilingual_subtitles_via_OpenSubtitles/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/31__Back_translate_with_OPUS_MT/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/32__Evaluate_MT_with_COMET_22/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/33__Speaker_diarisation_with_Pyannote/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/34__Auto_subtitle_burn_in_with_FFmpeg/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/35__Interactive_term_frequency_dashboard/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/36__Sentence_similarity_heat_map/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/37__Package_corpus_with_FAIR_metadata/</loc>
-         <lastmod>2025-05-20</lastmod>
-    </url>
-    <url>
-         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/tmp/38__Automate_pipeline_with_Makefile/</loc>
+         <loc>https://damjan-popic.github.io/digital-linguistics-playbook/scenarios/visualize/36__Sentence_similarity_heat_map/</loc>
          <lastmod>2025-05-20</lastmod>
     </url>
 </urlset>
