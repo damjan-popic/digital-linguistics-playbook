@@ -29,7 +29,8 @@ nav:
 
 plugins:
   - search
-  - tags                   # already bundled with Material
+  - tags
+  - awesome-pages                   # already bundled with Material
   - mkdocs-video:                 # optional—only if you want fancy players
       markdown_extensions: true
 
