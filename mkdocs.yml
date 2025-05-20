@@ -11,11 +11,11 @@ theme:
     - navigation.instant
     - search.highlight
 
-nav:
-  - Home: index.md
-  - Playbook: scenarios/
-  - How-tos & Video: howto/
-  - About: about.md
+# nav:
+#  - Home: index.md
+#  - Playbook: scenarios/
+#  - How-tos & Video: howto/
+#  - About: about.md
 
 plugins:
   - search
