@@ -1,6 +1,6 @@
 site_name: Digital Linguistics Playbook
-site_url: https://<your-user>.github.io/digital-linguistics-playbook
-repo_url: https://github.com/<your-user>/digital-linguistics-playbook
+site_url: https://damjan-popic.github.io/digital-linguistics-playbook
+repo_url: https://github.com/damjan-popic/digital-linguistics-playbook
 
 theme:
   name: material
