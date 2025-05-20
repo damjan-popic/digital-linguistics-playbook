@@ -1,12 +1,19 @@
 ---
-title: _Translate_subtitles_via_DeepL_MKVToolNix
+title:  Translate subtitles via DeepL MKVToolNix
 ---
 
 **When to use** Quick bilingual subtitles.
+
 **Input** `es.srt`
-**Tools** [DeepL plugin](https://github.com/Barefist/SubtitlesTranslator), [MKVToolNix](https://mkvtoolnix.download)
+
+**Tools** [DeepL plugin](https://github.com/Barefist/
+
+SubtitlesTranslator), [MKVToolNix](https://mkvtoolnix.download)
 **Steps** Auto‑translate ▸ Save `en.srt` ▸ `mkvmerge ...`
+
 **Output** MKV with selectable subs
-**Pro tips** Use `--language 0:spa`.
+
+!!! tip "Pro tip"
+    Use `--language 0:spa`.
 
 ---

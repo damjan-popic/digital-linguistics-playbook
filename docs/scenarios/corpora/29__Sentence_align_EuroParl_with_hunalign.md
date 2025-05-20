@@ -1,12 +1,18 @@
 ---
-title: _Sentence_align_EuroParl_with_hunalign
+title:  Sentence align EuroParl with hunalign
 ---
 
-**When to use** Build parallel MT data.
+**When to use** Building parallel MT data.
+
 **Input** EuroParl XML pair
+
 **Tools** [hunalign](https://github.com/danielvarga/hunalign), [EuroParl](https://www.statmt.org/europarl/)
+
 **Steps** Strip XML ▸ `hunalign ...`
+
 **Output** aligned.txt
-**Pro tips** Use dictionary for recall.
+
+!!! tip "Pro tip"
+    Use dictionary for recall.
 
 ---
