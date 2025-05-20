@@ -30,7 +30,7 @@ nav:
 plugins:
   - search
   - tags                   # already bundled with Material
-  - video:                 # optional—only if you want fancy players
+  - mkdocs-video:                 # optional—only if you want fancy players
       markdown_extensions: true
 
 markdown_extensions:
