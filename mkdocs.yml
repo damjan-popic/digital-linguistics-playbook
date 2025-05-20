@@ -1,0 +1,41 @@
+site_name: Digital Linguistics Playbook
+site_url: https://<your-user>.github.io/digital-linguistics-playbook
+repo_url: https://github.com/<your-user>/digital-linguistics-playbook
+
+theme:
+  name: material
+  palette:
+    scheme: default           # light/dark auto-switch
+  features:
+    - navigation.sections
+    - navigation.instant
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Playbook:
+      - Terminology:
+          - Excel → TBX: scenarios/terminology/01_excel_to_tbx.md
+          # add the rest of the terminology pages here
+  - How-tos & Video:
+      - Video & Audio:
+          - Trim a video (LosslessCut): howto/video-audio/trimming_with_losslesscut.md
+          - Batch-normalize audio: howto/video-audio/batch_normalize_audio.md
+      - PC Maintenance:
+          - Fresh Win 11 install: howto/pc-maintenance/fresh_win11_install.md
+      - Hardware:
+          - Add NVMe drive: howto/hardware/add_nvme_drive.md
+  - About: about.md
+
+plugins:
+  - search
+  - tags                   # already bundled with Material
+  - video:                 # optional—only if you want fancy players
+      markdown_extensions: true
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - attr_list
+  - toc:
+      permalink: ⚓︎
