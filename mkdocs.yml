@@ -13,25 +13,15 @@ theme:
 
 nav:
   - Home: index.md
-  - Playbook:
-      - Terminology:
-          - Excel → TBX: scenarios/terminology/01_excel_to_tbx.md
-          # add the rest of the terminology pages here
-  - How-tos & Video:
-      - Video & Audio:
-          - Trim a video (LosslessCut): howto/video-audio/trimming_with_losslesscut.md
-          - Batch-normalize audio: howto/video-audio/batch_normalize_audio.md
-      - PC Maintenance:
-          - Fresh Win 11 install: howto/pc-maintenance/fresh_win11_install.md
-      - Hardware:
-          - Add NVMe drive: howto/hardware/add_nvme_drive.md
+  - Playbook: scenarios/
+  - How-tos & Video: howto/
   - About: about.md
 
 plugins:
   - search
   - tags
   - awesome-pages                   # already bundled with Material
-  - mkdocs-video:                 # optional—only if you want fancy players
+  - mkdocs-video:
       markdown_extensions: true
 
 markdown_extensions:
