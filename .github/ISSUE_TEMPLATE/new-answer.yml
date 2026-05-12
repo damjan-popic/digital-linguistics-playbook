@@ -1,0 +1,25 @@
+name: Draft or claim an answer
+description: Use this when you want to write or test a playbook answer.
+title: "Answer draft: How do I ...?"
+labels: [answer, draft]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or proposed title
+      placeholder: How do I map places mentioned in a text?
+    validations:
+      required: true
+  - type: textarea
+    id: test_plan
+    attributes:
+      label: Test plan
+      description: How will you prove the workflow works?
+      placeholder: I will test the workflow on five texts and include the resulting CSV/map.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks, limits, ethics
+      placeholder: Copyright, privacy, tool version, language support, accessibility...

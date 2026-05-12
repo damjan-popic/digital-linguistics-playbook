@@ -1,32 +1,175 @@
 site_name: Digital Linguistics Playbook
-site_url: https://damjan-popic.github.io/digital-linguistics-playbook
+site_description: Practical answers for digital linguistics and digital humanities.
+site_url: https://damjan-popic.github.io/digital-linguistics-playbook/
 repo_url: https://github.com/damjan-popic/digital-linguistics-playbook
+repo_name: damjan-popic/digital-linguistics-playbook
+edit_uri: edit/main/docs/
+
+copyright: Built as a living classroom FAQ for digital humanities.
 
 theme:
   name: material
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.svg
+  language: en
   palette:
-    scheme: default           # light/dark auto-switch
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   features:
-    - navigation.sections
     - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
     - search.highlight
-
-# nav:
-#  - Home: index.md
-#  - Playbook: scenarios/
-#  - How-tos & Video: howto/
-#  - About: about.md
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
 
 plugins:
   - search
   - tags
-  - awesome-pages                   # already bundled with Material
-  - mkdocs-video:
-      markdown_extensions: true
 
 markdown_extensions:
   - admonition
-  - def_list
   - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
   - toc:
-      permalink: ⚓︎
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Start here: getting-started.md
+  - Answers:
+    - All answers: scenarios/index.md
+    - Terminology:
+      - Overview: scenarios/terminology/index.md
+      - Turn an Excel glossary into TBX: scenarios/terminology/turn-an-excel-glossary-into-tbx.md
+      - Clean a glossary in Excel Power Query: scenarios/terminology/clean-a-glossary-in-excel-power-query.md
+      - Validate a TBX file before publishing it: scenarios/terminology/validate-a-tbx-file-before-publishing-it.md
+      - Convert TBX for SDL/RWS MultiTerm: scenarios/terminology/convert-tbx-for-sdl-rws-multiterm.md
+      - Version-control a termbase with Git: scenarios/terminology/version-control-a-termbase-with-git.md
+      - Run forbidden-term QA in a CAT tool: scenarios/terminology/run-forbidden-term-qa-in-a-cat-tool.md
+      - Extract term candidates with AntConc: scenarios/terminology/extract-term-candidates-with-antconc.md
+      - Generate terminology with Termostat: scenarios/terminology/generate-terminology-with-termostat.md
+    - CAT tools:
+      - Overview: scenarios/cat-tools/index.md
+      - Import a termbase into memoQ: scenarios/cat-tools/import-a-termbase-into-memoq.md
+      - Align bilingual documents with LF Aligner: scenarios/cat-tools/align-bilingual-documents-with-lf-aligner.md
+      - Build a translation memory with OmegaT: scenarios/cat-tools/build-a-translation-memory-with-omegat.md
+    - Subtitling:
+      - Overview: scenarios/subtitling/index.md
+      - Batch-convert subtitle formats: scenarios/subtitling/batch-convert-subtitle-formats.md
+      - Auto-time subtitles with Whisper: scenarios/subtitling/auto-time-subtitles-with-whisper.md
+      - Translate subtitles and package them with video: scenarios/subtitling/translate-subtitles-and-package-them-with-video.md
+      - Harvest bilingual subtitles responsibly: scenarios/subtitling/harvest-bilingual-subtitles-responsibly.md
+      - Burn subtitles into a video with FFmpeg: scenarios/subtitling/burn-subtitles-into-a-video-with-ffmpeg.md
+    - Automation:
+      - Overview: scenarios/automation/index.md
+      - Standardise project file names: scenarios/automation/standardise-project-file-names.md
+      - Make a custom stop-word list for spaCy: scenarios/automation/make-a-custom-stop-word-list-for-spacy.md
+      - Automate a linguistic workflow with a Makefile: scenarios/automation/automate-a-linguistic-workflow-with-a-makefile.md
+    - NLP:
+      - Overview: scenarios/nlp/index.md
+      - Annotate a corpus with UDPipe: scenarios/nlp/annotate-a-corpus-with-udpipe.md
+      - Compare meanings across languages with fastText embeddings: scenarios/nlp/compare-meanings-across-languages-with-fasttext-embeddings.md
+      - Extract named entities with spaCy: scenarios/nlp/extract-named-entities-with-spacy.md
+    - Corpora:
+      - Overview: scenarios/corpora/index.md
+      - Query a corpus with CQPweb: scenarios/corpora/query-a-corpus-with-cqpweb.md
+      - Scrape a single-topic website into a mini corpus: scenarios/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md
+      - Filter Common Crawl with CC-Net: scenarios/corpora/filter-common-crawl-with-cc-net.md
+      - Deduplicate corpus text with MinHash: scenarios/corpora/deduplicate-corpus-text-with-minhash.md
+      - Filter a corpus by language with fastText: scenarios/corpora/filter-a-corpus-by-language-with-fasttext.md
+      - Sentence-align EuroParl with hunalign: scenarios/corpora/sentence-align-europarl-with-hunalign.md
+    - PDF & OCR:
+      - Overview: scenarios/pdf/index.md
+      - Bulk-download PDFs and OCR them: scenarios/pdf/bulk-download-pdfs-and-ocr-them.md
+    - Visualization:
+      - Overview: scenarios/visualization/index.md
+      - Visualise a frequency list with Voyant: scenarios/visualization/visualise-a-frequency-list-with-voyant.md
+      - Build a collocation graph from AntConc to Cytoscape: scenarios/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md
+      - Make a dispersion plot in LancsBox: scenarios/visualization/make-a-dispersion-plot-in-lancsbox.md
+      - Make an interactive term-frequency dashboard: scenarios/visualization/make-an-interactive-term-frequency-dashboard.md
+      - Create a sentence-similarity heat map: scenarios/visualization/create-a-sentence-similarity-heat-map.md
+      - Visualise uncertainty in humanities data: scenarios/visualization/visualise-uncertainty-in-humanities-data.md
+    - MT evaluation:
+      - Overview: scenarios/mt-eval/index.md
+      - Create back-translated data with OPUS-MT: scenarios/mt-eval/create-back-translated-data-with-opus-mt.md
+      - Evaluate machine translation with COMET: scenarios/mt-eval/evaluate-machine-translation-with-comet.md
+    - Audio:
+      - Overview: scenarios/audio/index.md
+      - Separate speakers with pyannote: scenarios/audio/separate-speakers-with-pyannote.md
+    - Publishing & FAIR data:
+      - Overview: scenarios/publishing/index.md
+      - Package a corpus with FAIR metadata: scenarios/publishing/package-a-corpus-with-fair-metadata.md
+      - Write a README for a humanities dataset: scenarios/publishing/write-a-readme-for-a-humanities-dataset.md
+    - Data wrangling:
+      - Overview: scenarios/data-wrangling/index.md
+      - Turn messy humanities notes into a reusable dataset: scenarios/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
+    - Digital editions:
+      - Overview: scenarios/editions/index.md
+      - Make a tiny digital edition of a historical text: scenarios/editions/make-a-tiny-digital-edition-of-a-historical-text.md
+    - Mapping:
+      - Overview: scenarios/mapping/index.md
+      - Map places mentioned in a text: scenarios/mapping/map-places-mentioned-in-a-text.md
+      - Build a simple cultural heritage map: scenarios/mapping/build-a-simple-cultural-heritage-map.md
+    - AI:
+      - Overview: scenarios/ai/index.md
+      - Audit AI output against source documents: scenarios/ai/audit-ai-output-against-source-documents.md
+    - Ethics:
+      - Overview: scenarios/ethics/index.md
+      - Decide whether a digitised source should be public: scenarios/ethics/decide-whether-a-digitised-source-should-be-public.md
+  - Classroom:
+    - Overview: classroom/index.md
+    - Sprint formats: classroom/sprints.md
+    - Question bank: classroom/question-bank.md
+    - Rubric: classroom/rubric.md
+    - Peer review: classroom/peer-review.md
+  - Contribute:
+    - How to contribute: contribute/index.md
+    - Answer template: contribute/answer-template.md
+    - Style guide: contribute/style-guide.md
+    - Data model: contribute/data-model.md
+  - Resources:
+    - Tool shelf: resources/tools.md
+    - Legacy how-to index: howto/index.md
+    - Glossary: resources/glossary.md
+    - Ethics checklist: resources/ethics-checklist.md
+  - Tags: tags.md
+  - About: about.md

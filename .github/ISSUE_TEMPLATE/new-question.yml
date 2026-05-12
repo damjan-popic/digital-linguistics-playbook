@@ -1,0 +1,43 @@
+name: Suggest a new FAQ question
+description: Propose a question that should become a playbook answer.
+title: "Question: How do I ...?"
+labels: [question, needs-author]
+body:
+  - type: input
+    id: question
+    attributes:
+      label: Question
+      description: Phrase it as a practical “How do I…?” question.
+      placeholder: How do I clean OCR errors in a historical corpus?
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - terminology
+        - corpora
+        - pdf
+        - nlp
+        - visualization
+        - subtitling
+        - audio
+        - mapping
+        - data-wrangling
+        - editions
+        - ai
+        - publishing
+        - ethics
+        - automation
+        - cat-tools
+        - mt-eval
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Why does this matter?
+      description: Who would need this answer, and in what situation?
+    validations:
+      required: true
