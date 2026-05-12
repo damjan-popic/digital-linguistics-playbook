@@ -1,9 +1,31 @@
 # Python
-.venv/
-venv/
 __pycache__/
 *.py[cod]
+*$py.class
 .pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+*.env
+*.env.*
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+*.manifest
+*.spec
 
 # MkDocs
 site/
@@ -18,3 +40,6 @@ Thumbs.db
 *.log
 *.tmp
 .cache/
+*.swp
+*.swo
+*~
