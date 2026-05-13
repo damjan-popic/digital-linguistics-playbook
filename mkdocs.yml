@@ -106,9 +106,23 @@ nav:
       - Automate a linguistic workflow with a Makefile: scenarios/automation/automate-a-linguistic-workflow-with-a-makefile.md
     - NLP:
       - Overview: scenarios/nlp/index.md
-      - Annotate a corpus with UDPipe: scenarios/nlp/annotate-a-corpus-with-udpipe.md
-      - Compare meanings across languages with fastText embeddings: scenarios/nlp/compare-meanings-across-languages-with-fasttext-embeddings.md
-      - Extract named entities with spaCy: scenarios/nlp/extract-named-entities-with-spacy.md
+      - Python first steps:
+        - Install Python 3.12 for NLP work: scenarios/nlp/install-python-312-for-nlp.md
+        - Create a Python 3.12 virtual environment: scenarios/nlp/create-a-python-312-virtual-environment.md
+        - Install Python packages with pip: scenarios/nlp/install-python-packages-with-pip.md
+        - Run a Python script from the terminal: scenarios/nlp/run-a-python-script-from-terminal.md
+        - Read and write text files in Python: scenarios/nlp/read-and-write-text-files-in-python.md
+        - Read and write CSV files with pandas: scenarios/nlp/read-and-write-csv-files-with-pandas.md
+        - Structure a small Python NLP project: scenarios/nlp/structure-a-small-python-nlp-project.md
+        - Troubleshoot Python venv and pip problems: scenarios/nlp/troubleshoot-python-venv-and-pip.md
+      - CLASSLA first steps:
+        - Install and test CLASSLA with Python 3.12: scenarios/nlp/install-and-test-classla.md
+        - Annotate a small text with CLASSLA: scenarios/nlp/annotate-a-small-text-with-classla.md
+        - Export CLASSLA results to CSV: scenarios/nlp/export-classla-results-to-csv.md
+      - Existing NLP workflows:
+        - Annotate a corpus with UDPipe: scenarios/nlp/annotate-a-corpus-with-udpipe.md
+        - Compare meanings across languages with fastText embeddings: scenarios/nlp/compare-meanings-across-languages-with-fasttext-embeddings.md
+        - Extract named entities with spaCy: scenarios/nlp/extract-named-entities-with-spacy.md
     - Corpora:
       - Overview: scenarios/corpora/index.md
       - Query a corpus with CQPweb: scenarios/corpora/query-a-corpus-with-cqpweb.md

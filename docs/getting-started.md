@@ -41,3 +41,16 @@ mkdocs serve
 python scripts/check_answers.py
 mkdocs build --strict
 ```
+
+## If you are starting with Python
+
+Start with the small NLP path:
+
+1. [Install Python 3.12 for NLP work](scenarios/nlp/install-python-312-for-nlp.md)
+2. [Create a Python 3.12 virtual environment](scenarios/nlp/create-a-python-312-virtual-environment.md)
+3. [Install Python packages with pip](scenarios/nlp/install-python-packages-with-pip.md)
+4. [Run a Python script from the terminal](scenarios/nlp/run-a-python-script-from-terminal.md)
+5. [Install and test CLASSLA with Python 3.12](scenarios/nlp/install-and-test-classla.md)
+
+Use Python 3.12 for these workflows. Do not jump to a newer Python version unless the project documentation says it is supported.
+

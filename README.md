@@ -9,14 +9,14 @@ The project collects concise answers to practical questions and links selected w
 - How do I map places mentioned in a text?
 - How do I audit an AI-generated summary against source documents?
 
-The site is built with **MkDocs Material** and is designed for deployment with **GitHub Pages**.
+The site is built with **MkDocs Material** and is designed for deployment with **GitHub Pages**. The Python/NLP teaching path standardizes on **Python 3.12** to avoid package-compatibility surprises.
 
 ## Local setup
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+python3.12 -m venv .venv
+source .venv/bin/activate      # Windows: py -3.12 -m venv .venv, then .venv\Scripts\activate
+python -m pip install -r requirements.txt
 mkdocs serve
 ```
 

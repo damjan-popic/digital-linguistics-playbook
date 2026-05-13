@@ -63,3 +63,8 @@ The emphasis is on practical reuse: clear procedures, named limitations, source 
 - mapping, visualization, digital editions, and publishing;
 - AI-assisted work, source criticism, ethics, and access;
 - worked code examples and reusable repository patterns.
+
+## New: Python and NLP first steps
+
+The NLP section now includes a beginner path from Python 3.12 installation and virtual environments to small scripts, CSV/text handling, and first CLASSLA annotation workflows. These pages are designed to be used directly in class without slides.
+
