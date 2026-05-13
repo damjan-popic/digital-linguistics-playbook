@@ -1,38 +1,38 @@
 ---
-title: "Ladakh Relations"
-description: "A static-site and local-pipeline repository for graphs, maps, corpus indexing, and relation discovery."
-tags: [projects, knowledge-graph, map, cultural-heritage, static-site]
+title: "Static knowledge graph, map, and corpus index"
+description: "A static DH site pattern for publishing derived entities, relations, places, and corpus references without a backend."
+tags: [projects, knowledge-graph, mapping, cultural-heritage, static-site]
 ---
 
-# Ladakh Relations
+# Static knowledge graph, map, and corpus index
 
 <div class="answer-meta" markdown>
 <span>knowledge graph</span>
 <span>map</span>
-<span>static publishing</span>
+<span>static site</span>
 </div>
 
 ## What this project does
 
-Ladakh Relations is a static-site and local-pipeline repository for an interactive research graph. It supports graph nodes and edges, a map view, geocoding review, a corpus index, cleaning and annotation workflows, candidate relation discovery, and GitHub Pages deployment without a backend.
+This example shows a static-site and local-pipeline pattern for an interactive research graph. It supports graph nodes and edges, a map view, geocoding review, a corpus index, cleaning and annotation workflows, candidate relation discovery, and GitHub Pages deployment without a backend.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/damjan-popic/ladakh-relations)
+[:octicons-mark-github-16: Open the source repository](https://github.com/damjan-popic/ladakh-relations)
 
 ## Use this when
 
-- you want a production-facing example of a static DH interface;
-- you need to connect people, places, documents, meetings, and relation candidates;
-- you want to teach graph data alongside maps and source text;
-- you want a no-backend publication model for a cultural-heritage project.
+- you want to publish a DH graph and map without a database server.
+- you need to separate local source processing from public derived data.
+- you want to teach entity normalization, candidate links, and geocoding review.
+- you need a case study for public/private boundaries in cultural heritage work.
 
 ## What to inspect in the code
 
-- `schema/` — data model and structural expectations.
-- `data/` — generated graph and map data.
-- `corpus/` — normalized source/transcription index.
-- `scripts/` — cleaning, indexing, candidate-link, and review workflows.
-- `index.html`, `app.js`, `style.css` — static front-end.
-- `.github/workflows/` — deployment workflow.
+- `index.html`, `app.js`, and `style.css` — static public interface.
+- `data/` — derived public graph and map data.
+- `scripts/rebuild_all.py` — rebuilds derived data.
+- `scripts/normalize_texts.py` — normalizes local text input.
+- `schema/` — data model and validation expectations.
+- `docs/` — architecture, corpus, embeddings, and deployment notes.
 
 ## Minimal run path
 
@@ -40,22 +40,26 @@ Ladakh Relations is a static-site and local-pipeline repository for an interacti
 python scripts/serve_local.py
 ```
 
-Then open the local site shown by the script, usually `http://localhost:8000`.
+Then open the local server address. For new texts, the public README describes this pattern:
+
+```text
+raw text → normalized corpus → rebuilt derived data → static site
+```
 
 ## Relevant playbook workflows
 
-- [How do I build a simple cultural heritage map?](../scenarios/mapping/build-a-simple-cultural-heritage-map.md)
 - [How do I map places mentioned in a text?](../scenarios/mapping/map-places-mentioned-in-a-text.md)
+- [How do I build a simple cultural heritage map?](../scenarios/mapping/build-a-simple-cultural-heritage-map.md)
 - [How do I turn messy humanities notes into a reusable dataset?](../scenarios/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md)
 - [How do I decide whether a digitised source should be public?](../scenarios/ethics/decide-whether-a-digitised-source-should-be-public.md)
 
 ## Practice use
 
-Ask users to add three candidate entities and two relations to a tiny graph file. They should then decide which relations are confirmed, inferred, uncertain, or rejected, and document why.
+Ask users to design a small graph with people, places, sources, and uncertainty notes. Then have them decide which fields can be public and which should remain private or local.
 
 ## Limits and cautions
 
-- Relation candidates are not confirmed evidence.
-- Cultural heritage data may require access controls, community review, or contextual framing.
-- Geocoding should be reviewed manually.
-- Static-site publication is convenient, but public visibility is a rights and ethics decision.
+- Cultural heritage projects need source, community, and access review.
+- Full transcriptions may be copyrighted or sensitive, so derived metadata may be safer to publish than full text.
+- Candidate links are hypotheses, not established facts.
+- Coordinates and place identities should be reviewed, especially for culturally sensitive locations.

@@ -58,8 +58,8 @@ Audited AI output and error report.
 
 ## Worked examples
 
-- [FiFi](../../projects/fifi.md) shows how website content can be crawled and chunked with source metadata before retrieval.
-- [Jezikovni svetovalec](../../projects/jezikovni-svetovalec.md) shows a source-grounded language-advisor architecture with a persistent Markdown wiki and citation-first workflow.
+- [website crawler and chatbot corpus builder](../../projects/fifi.md) shows how website content can be crawled and chunked with source metadata before retrieval.
+- [source-grounded Slovenian language-advisor architecture](../../projects/jezikovni-svetovalec.md) shows a source-grounded language-advisor architecture with a persistent Markdown wiki and citation-first workflow.
 
 ## Practice task
 

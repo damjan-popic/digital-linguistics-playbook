@@ -25,7 +25,8 @@ def main() -> int:
     for path in files:
         text = path.read_text(encoding="utf-8")
         rel = path.relative_to(ROOT)
-        if "[:octicons-mark-github-16: Open the repository]" not in text:
+        if ("[:octicons-mark-github-16: Open the source repository]" not in text
+                and "[:octicons-mark-github-16: Open the repository]" not in text):
             failures.append(f"{rel}: missing GitHub repository link")
         for heading in REQUIRED_HEADINGS:
             if heading not in text:

@@ -58,9 +58,9 @@ Corpus ZIP with README, metadata, and checksums.
 
 ## Worked examples
 
-- [Wikivir](../../projects/wikivir.md) shows metadata normalization, validation, and corpus-level documentation for a large text collection.
-- [Corpus Augmenter](../../projects/corpus-augmenter.md) shows how conversion and annotation outputs should preserve metadata for traceability.
-- [FiFi](../../projects/fifi.md) shows document and chunk metadata for retrieval-ready website corpora.
+- [Slovene Wikisource corpus build pipeline](../../projects/wikivir.md) shows metadata normalization, validation, and corpus-level documentation for a large text collection.
+- [corpus conversion and CLASSLA annotation example](../../projects/corpus-augmenter.md) shows how conversion and annotation outputs should preserve metadata for traceability.
+- [website crawler and chatbot corpus builder](../../projects/fifi.md) shows document and chunk metadata for retrieval-ready website corpora.
 
 ## Practice task
 

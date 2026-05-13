@@ -57,7 +57,7 @@ Name the expected file, table, map, transcript, or report.
 
 ## Worked example
 
-Link to a real repository, sample dataset, notebook, or project page if one exists.
+Link to a real repository, sample dataset, notebook, or code-example page if one exists.
 
 ## Practice task
 

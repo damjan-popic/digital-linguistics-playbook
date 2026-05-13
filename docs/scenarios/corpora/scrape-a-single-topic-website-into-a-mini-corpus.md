@@ -59,8 +59,8 @@ Folder of clean `.txt` files plus metadata.
 
 ## Worked examples
 
-- [TextHarvester](../../projects/text-harvester.md) shows a compact Python implementation for harvesting readable web text into corpus-ready files.
-- [FiFi](../../projects/fifi.md) shows a larger crawler/chunking workflow for institutional website content and retrieval preparation.
+- [web text harvesting example](../../projects/text-harvester.md) shows a compact Python implementation for harvesting readable web text into corpus-ready files.
+- [website crawler and chatbot corpus builder](../../projects/fifi.md) shows a larger crawler/chunking workflow for institutional website content and retrieval preparation.
 
 ## Practice task
 

@@ -100,3 +100,115 @@
 .md-typeset .hero .headerlink {
   display: none;
 }
+
+/* Streamlined discovery UI */
+.md-typeset .search-panel {
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 18%, transparent);
+  border-radius: 1.25rem;
+  padding: 1rem;
+  margin: 1.2rem 0 1.6rem;
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb, var(--md-primary-fg-color) 9%, transparent),
+      color-mix(in srgb, var(--md-accent-fg-color) 8%, transparent));
+}
+
+.md-typeset .big-search-button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: .75rem;
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 20%, transparent);
+  border-radius: 999px;
+  padding: .9rem 1.1rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color--light);
+  box-shadow: 0 .5rem 1.4rem rgba(17, 24, 39, .08);
+  cursor: pointer;
+  font-size: .95rem;
+  text-align: left;
+}
+
+.md-typeset .big-search-button strong {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .quick-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-top: .9rem;
+}
+
+.md-typeset .quick-row a,
+.md-typeset .quick-row span {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: .28rem .7rem;
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+  color: var(--md-default-fg-color);
+  font-size: .78rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.md-typeset .section-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  margin: .8rem 0 1.2rem;
+}
+
+.md-typeset .section-strip a {
+  border: 1px solid color-mix(in srgb, var(--md-primary-fg-color) 16%, transparent);
+  border-radius: 999px;
+  padding: .35rem .75rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: .78rem;
+}
+
+.md-typeset .scenario-list {
+  columns: 2 20rem;
+  column-gap: 1.6rem;
+}
+
+.md-typeset .scenario-list h3 {
+  break-after: avoid;
+  margin-top: 0;
+}
+
+.md-typeset .scenario-list ul {
+  break-inside: avoid;
+  margin-top: .35rem;
+}
+
+.md-typeset .scenario-list li {
+  margin-bottom: .35rem;
+}
+
+.md-typeset .compact-card-title {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: .2rem;
+}
+
+.md-typeset .compact-meta {
+  color: var(--md-default-fg-color--light);
+  font-size: .76rem;
+  margin-top: .3rem;
+}
+
+.md-typeset .project-label {
+  color: var(--md-primary-fg-color);
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  font-size: .7rem;
+}
+
+@media screen and (max-width: 44rem) {
+  .md-typeset .hero { padding: 1.35rem; }
+  .md-typeset .scenario-list { columns: 1; }
+}

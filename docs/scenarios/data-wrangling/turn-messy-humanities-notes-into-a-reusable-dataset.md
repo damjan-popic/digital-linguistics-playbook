@@ -59,9 +59,9 @@ CSV with clear fields, uncertainty notes, and source references.
 
 ## Worked examples
 
-- [Wikivir](../../projects/wikivir.md) shows metadata normalization for a large, messy Slovene Wikisource corpus.
-- [Ladakh Relations](../../projects/ladakh-relations.md) shows how cleaned entities and relations can become a graph, map, and corpus index.
-- [Pracomul-SLC Analyzer](../../projects/pracomul.md) shows how dialogue-corpus exports can become tidy token, turn, speaker, and aggregate tables.
+- [Slovene Wikisource corpus build pipeline](../../projects/wikivir.md) shows metadata normalization for a large, messy Slovene Wikisource corpus.
+- [static knowledge graph, map, and corpus index example](../../projects/ladakh-relations.md) shows how cleaned entities and relations can become a graph, map, and corpus index.
+- [dialogue corpus tabulation and lexical-diversity example](../../projects/pracomul.md) shows how dialogue-corpus exports can become tidy token, turn, speaker, and aggregate tables.
 
 ## Practice task
 

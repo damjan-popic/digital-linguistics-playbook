@@ -1,10 +1,10 @@
 ---
-title: "Medieval NER"
-description: "A hybrid and supervised workflow for person extraction in medieval notarial material."
-tags: [projects, NER, historical-texts, annotation, medieval]
+title: "Medieval notarial NER workflow"
+description: "A hybrid baseline and supervised-training pattern for named-entity recognition in medieval notarial material."
+tags: [projects, NER, medieval, historical-NLP, annotation]
 ---
 
-# Medieval NER
+# Medieval notarial NER workflow
 
 <div class="answer-meta" markdown>
 <span>historical NLP</span>
@@ -14,45 +14,36 @@ tags: [projects, NER, historical-texts, annotation, medieval]
 
 ## What this project does
 
-Medieval NER is a blueprint for extracting person mentions from medieval notarial material. It combines a hybrid extractor baseline with a planned supervised fine-tuning workflow, using explicit `PER` span annotation as the safest first target.
+This example shows how to approach named-entity recognition in medieval notarial material. It combines a hybrid extractor baseline with a planned supervised fine-tuning workflow, using explicit person-span annotation as the safest first target.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/damjan-popic/medieval-ner)
+[:octicons-mark-github-16: Open the source repository](https://github.com/damjan-popic/medieval-ner)
 
 ## Use this when
 
-- you need a concrete historical-NLP case study;
-- you want to teach why domain-specific NER cannot simply be delegated to an off-the-shelf model;
-- you need an example of starting with a small label set before expanding an annotation schema;
-- you want to compare rule-based extraction, model-based extraction, and hybrid post-processing.
+- you need a historical-NLP example where generic NER is not enough.
+- you want to teach annotation guidelines and span boundaries.
+- you need a realistic baseline plus model-training architecture.
+- you want users to inspect domain-specific failure modes.
 
 ## What to inspect in the code
 
-- `process_ner.py` — hybrid inference pipeline.
+- `process_ner.py` — current hybrid inference pipeline.
 - `Rules.md` — extraction expectations.
-- `annotation_guidelines.md` — annotation guidance.
+- `annotation_guidelines.md` — annotation instructions.
 - `train_ner.py` — fine-tuning entry point.
-- `evaluate_ner.py` — evaluation on token labels and entity spans.
-- `prepare_training_data.py` — conversion from character-span annotations to token labels.
+- `evaluate_ner.py` — token-label and span evaluation.
+- `prepare_training_data.py` — converts annotations into token-classification records.
 - `data/annotation_schema.md` — annotation standard.
 
 ## Minimal run path
 
-For a pilot workflow:
+Treat this as a design pattern rather than a push-button solution. The useful minimum path is:
 
-```bash
-.venv/bin/python prepare_training_data.py \
-  --input data/annotations/example_annotations.jsonl \
-  --output data/processed/example_tokenized.jsonl
-
-.venv/bin/python train_ner.py \
-  --train data/splits/train.jsonl \
-  --dev data/splits/dev.jsonl \
-  --output-dir models/medieval-ner-per
-
-.venv/bin/python evaluate_ner.py \
-  --model models/medieval-ner-per \
-  --test data/splits/test.jsonl
+```text
+source text → annotation schema → baseline extractor → error typology → gold spans → model training → evaluation
 ```
+
+Start with ten short passages and evaluate span boundaries manually before training anything.
 
 ## Relevant playbook workflows
 
@@ -63,11 +54,11 @@ For a pilot workflow:
 
 ## Practice use
 
-Give users five short medieval-style passages and ask them to annotate only explicit person spans using `B-PER` and `I-PER`. Then compare disagreements: title boundary, patronymic boundary, place-origin phrase, saint reference, and repeated mention.
+Give users five medieval or historical passages. Ask them to mark person spans, compare disagreements, and write two rules that would help a baseline extractor without pretending the rules solve the whole problem.
 
 ## Limits and cautions
 
-- The first useful label set is deliberately narrow.
-- Historical spelling, formulaic phrases, and abbreviated references can break generic NER.
-- Fine-tuning requires consistent annotation more than a large but noisy dataset.
-- Exact-span evaluation is more meaningful here than loose token-level success.
+- Historical names, titles, patronymics, abbreviations, and formulaic references are difficult for generic NER models.
+- A historical index is not automatically a complete gold standard.
+- Rules and models solve different problems and should be evaluated separately.
+- Entity extraction can expose people, places, and community knowledge in ways that need contextual review.

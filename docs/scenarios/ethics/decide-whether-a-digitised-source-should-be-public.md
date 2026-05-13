@@ -58,9 +58,9 @@ Access decision: public, restricted, anonymized, delayed, or not published.
 
 ## Worked examples
 
-- [Jezikovni svetovalec](../../projects/jezikovni-svetovalec.md) is a useful cautionary architecture for source-grounded work where source texts may not be redistributable.
-- [Ladakh Relations](../../projects/ladakh-relations.md) shows why public visibility, cultural context, and access decisions matter in heritage-oriented DH projects.
-- [Vejice Word Add-in](../../projects/vejice-add-in.md) shows how application code can separate safe mock mode from remote processing of user text.
+- [source-grounded Slovenian language-advisor architecture](../../projects/jezikovni-svetovalec.md) is a useful cautionary architecture for source-grounded work where source texts may not be redistributable.
+- [static knowledge graph, map, and corpus index example](../../projects/ladakh-relations.md) shows why public visibility, cultural context, and access decisions matter in heritage-oriented DH projects.
+- [Slovenian comma-checking Word add-in example](../../projects/vejice-add-in.md) shows how application code can separate safe mock mode from remote processing of user text.
 
 ## Practice task
 

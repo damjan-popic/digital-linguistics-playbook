@@ -1,21 +1,21 @@
 ---
-title: "Project page template"
+title: "Code-example page template"
 description: "A template for documenting a repository as a worked code example."
 tags: [template, projects, code, repository]
 ---
 
-# Project page template
+# Code-example page template
 
-Use this template when adding a repository to the **Projects and code** section.
+Use this template when adding a repository to the **Code examples** section.
 
 ```markdown
 ---
-title: "Project name"
-description: "One sentence explaining what the repository does."
+title: "Functional code-example title"
+description: "One sentence explaining the reusable function of the repository."
 tags: [projects, corpus, python]
 ---
 
-# Project name
+# Functional code-example title
 
 <div class="answer-meta" markdown>
 <span>area</span>
@@ -25,9 +25,9 @@ tags: [projects, corpus, python]
 
 ## What this project does
 
-Summarize the repository in two to four sentences.
+Summarize the reusable function of the repository in two to four sentences. Use a descriptive functional title, not an internal nickname, unless the public project name is itself clearer than the function.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/owner/repo)
+[:octicons-mark-github-16: Open the source repository](https://github.com/owner/repo)
 
 ## Use this when
 

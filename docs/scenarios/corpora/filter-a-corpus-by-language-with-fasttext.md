@@ -57,8 +57,8 @@ Language-filtered corpus and a rejected/uncertain set.
 
 ## Worked examples
 
-- [TextHarvester](../../projects/text-harvester.md) includes a lightweight language-detection step for harvested web texts.
-- [FiFi](../../projects/fifi.md) keeps language and source metadata in document records and retrieval chunks.
+- [web text harvesting example](../../projects/text-harvester.md) includes a lightweight language-detection step for harvested web texts.
+- [website crawler and chatbot corpus builder](../../projects/fifi.md) keeps language and source metadata in document records and retrieval chunks.
 
 ## Practice task
 

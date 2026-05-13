@@ -1,6 +1,6 @@
 [
   {
-    "name": "TextHarvester",
+    "name": "Web text harvesting",
     "slug": "text-harvester",
     "repo": "https://github.com/damjan-popic/text_harvester",
     "area": "corpus building",
@@ -9,7 +9,7 @@
     "page": "projects/text-harvester.md"
   },
   {
-    "name": "Corpus Augmenter",
+    "name": "Corpus conversion and CLASSLA annotation",
     "slug": "corpus-augmenter",
     "repo": "https://github.com/damjan-popic/corpus_augmenter",
     "area": "corpus annotation",
@@ -18,7 +18,7 @@
     "page": "projects/corpus-augmenter.md"
   },
   {
-    "name": "Wikivir",
+    "name": "Slovene Wikisource corpus build pipeline",
     "slug": "wikivir",
     "repo": "https://github.com/damjan-popic/wikivir",
     "area": "corpus construction",
@@ -27,7 +27,7 @@
     "page": "projects/wikivir.md"
   },
   {
-    "name": "Šolar lexical analysis pipeline",
+    "name": "Learner-corpus lexical analysis",
     "slug": "korpus-solar-analysis",
     "repo": "https://github.com/damjan-popic/korpus-solar-analysis",
     "area": "corpus analysis",
@@ -36,7 +36,7 @@
     "page": "projects/korpus-solar-analysis.md"
   },
   {
-    "name": "Pracomul-SLC Analyzer",
+    "name": "Dialogue corpus tabulation and lexical-diversity analysis",
     "slug": "pracomul",
     "repo": "https://github.com/damjan-popic/pracomul",
     "area": "dialogue corpus analysis",
@@ -45,7 +45,7 @@
     "page": "projects/pracomul.md"
   },
   {
-    "name": "Medieval NER",
+    "name": "Medieval notarial NER workflow",
     "slug": "medieval-ner",
     "repo": "https://github.com/damjan-popic/medieval-ner",
     "area": "historical NLP",
@@ -54,7 +54,7 @@
     "page": "projects/medieval-ner.md"
   },
   {
-    "name": "Ladakh Relations",
+    "name": "Static knowledge graph, map, and corpus index",
     "slug": "ladakh-relations",
     "repo": "https://github.com/damjan-popic/ladakh-relations",
     "area": "knowledge graph and static DH site",
@@ -63,7 +63,7 @@
     "page": "projects/ladakh-relations.md"
   },
   {
-    "name": "FiFi",
+    "name": "Website crawler and chatbot corpus builder",
     "slug": "fifi",
     "repo": "https://github.com/damjan-popic/fifi",
     "area": "crawler and RAG preparation",
@@ -72,7 +72,7 @@
     "page": "projects/fifi.md"
   },
   {
-    "name": "Jezikovni svetovalec",
+    "name": "Source-grounded Slovenian language advisor",
     "slug": "jezikovni-svetovalec",
     "repo": "https://github.com/damjan-popic/jezikovni-svetovalec",
     "area": "source-grounded language advisor",
@@ -81,7 +81,7 @@
     "page": "projects/jezikovni-svetovalec.md"
   },
   {
-    "name": "Vejice Word Add-in",
+    "name": "Slovenian comma-checking Word add-in",
     "slug": "vejice-add-in",
     "repo": "https://github.com/damjan-popic/Vejice_add_in",
     "area": "writing assistant application",
@@ -90,30 +90,12 @@
     "page": "projects/vejice-add-in.md"
   },
   {
-    "name": "createAI",
+    "name": "User/AI transcript analysis",
     "slug": "createai",
     "repo": "https://github.com/damjan-popic/createAI",
     "area": "transcript analysis",
     "language": "Python",
     "status": "workflow repository",
     "page": "projects/createai.md"
-  },
-  {
-    "name": "Digital Linguist Kickstart",
-    "slug": "digital-linguist-kickstart",
-    "repo": "https://github.com/damjan-popic/digital_linguist_kickstart",
-    "area": "starter project",
-    "language": "Python",
-    "status": "minimal starter",
-    "page": "projects/digital-linguist-kickstart.md"
-  },
-  {
-    "name": "Digital Linguistics Playbook",
-    "slug": "digital-linguistics-playbook",
-    "repo": "https://github.com/damjan-popic/digital-linguistics-playbook",
-    "area": "documentation site",
-    "language": "Markdown / MkDocs",
-    "status": "public reference site",
-    "page": "projects/digital-linguistics-playbook.md"
   }
 ]

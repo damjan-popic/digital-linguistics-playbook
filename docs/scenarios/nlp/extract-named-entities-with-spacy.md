@@ -58,7 +58,7 @@ You need a first pass at people, places, organizations, or other named entities 
 
 ## Worked example
 
-- [Medieval NER](../../projects/medieval-ner.md) shows why historical named-entity extraction often needs a domain-specific annotation schema, a baseline, and a manual error typology.
+- [medieval notarial NER workflow](../../projects/medieval-ner.md) shows why historical named-entity extraction often needs a domain-specific annotation schema, a baseline, and a manual error typology.
 
 ## Practice task
 

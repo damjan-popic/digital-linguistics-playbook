@@ -1,44 +1,41 @@
 ---
-title: "Pracomul-SLC Analyzer"
-description: "A dialogue-corpus pipeline that exports tidy token, turn, speaker, and aggregate tables."
-tags: [projects, dialogue-corpus, lexical-diversity, tidy-data, Spanish]
+title: "Dialogue corpus tabulation and lexical-diversity analysis"
+description: "A pipeline for turning dialogue-corpus exports into token, turn, speaker, and aggregate tables."
+tags: [projects, dialogue, lexical-diversity, pandas, Spanish]
 ---
 
-# Pracomul-SLC Analyzer
+# Dialogue corpus tabulation and lexical-diversity analysis
 
 <div class="answer-meta" markdown>
 <span>dialogue corpus</span>
-<span>tidy data</span>
 <span>lexical diversity</span>
+<span>tables</span>
 </div>
 
 ## What this project does
 
-Pracomul-SLC Analyzer turns a Pracomul SLC-style dialogue-corpus export into tidy data frames and precomputed aggregate tables. It recognizes speaker turns, normalizes transcription artefacts, attaches speaker metadata, computes lexical-diversity and sentence-level diagnostics, and exports CSV outputs.
+This example turns an SLC-style dialogue-corpus export into tidy data frames and precomputed aggregate tables. It recognizes speaker turns, normalizes transcription artefacts, attaches speaker metadata, computes lexical-diversity and sentence-level diagnostics, and exports CSV outputs.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/damjan-popic/pracomul)
+[:octicons-mark-github-16: Open the source repository](https://github.com/damjan-popic/pracomul)
 
 ## Use this when
 
-- you have dialogue data with speaker turns and metadata;
-- you need to transform a plain-text corpus export into analysis-ready tables;
-- you want users to compare token-level, turn-level, speaker-level, and aggregate data;
-- you need a concrete example of lexical-diversity measures in a pipeline.
+- you have conversational corpus data and need analysis-ready tables.
+- you want to teach corpus grain: document, speaker, turn, token, aggregate.
+- you need an example of lexical-diversity metrics in practice.
+- you want users to see why a data dictionary matters.
 
 ## What to inspect in the code
 
-- `analyze_slc.py` — the main self-contained pipeline.
-- `analysis.ipynb` and related notebooks — exploratory analysis.
-- `slc_column_dictionary.xlsx` — column documentation.
-- `results/` — generated output tables, if present.
-- `data/` — source material; check rights before reuse.
+- `analyze_slc.py` — the main pipeline script.
+- `data/` — input corpus material.
+- `results/` — output tables.
+- `slc_column_dictionary.xlsx` — column dictionary.
+- notebooks — exploratory analysis and checks.
 
 ## Minimal run path
 
 ```bash
-conda create -n slc python=3.10 spacy lexicalrichness pandas tqdm -c conda-forge
-conda activate slc
-python -m spacy download es_core_news_md
 python analyze_slc.py data/corpus.txt results
 ```
 

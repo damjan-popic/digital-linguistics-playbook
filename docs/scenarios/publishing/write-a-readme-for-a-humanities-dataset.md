@@ -57,8 +57,8 @@ You need a human-readable landing page for data that someone else might reuse.
 
 ## Worked examples
 
-- [Projects and code](../../projects/index.md) collects repository pages that explain purpose, inputs, outputs, code files, limits, and reuse cautions.
-- [Pracomul-SLC Analyzer](../../projects/pracomul.md) is useful for thinking about data dictionaries, output tables, and reproducibility notes.
+- [Code examples](../../projects/index.md) collects repository pages that explain purpose, inputs, outputs, code files, limits, and reuse cautions.
+- [dialogue corpus tabulation and lexical-diversity example](../../projects/pracomul.md) is useful for thinking about data dictionaries, output tables, and reproducibility notes.
 
 ## Practice task
 

@@ -58,7 +58,7 @@ Reproducible workflow controlled by `make`.
 
 ## Worked examples
 
-- [Digital Linguistics Playbook](../../projects/digital-linguistics-playbook.md) shows a documentation workflow with validation and GitHub Pages deployment.
+- [this MkDocs publishing workflow](../../contribute/index.md) shows a documentation workflow with validation and GitHub Pages deployment.
 - [Šolar lexical analysis](../../projects/korpus-solar-analysis.md) shows a multi-step corpus pipeline with scripts, configs, reports, and outputs.
 
 ## Practice task

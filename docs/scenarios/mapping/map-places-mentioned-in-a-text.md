@@ -59,7 +59,7 @@ Map with notes on place certainty.
 
 ## Worked example
 
-- [Ladakh Relations](../../projects/ladakh-relations.md) shows how place entities, map views, and source references can be connected in a static DH site.
+- [static knowledge graph, map, and corpus index example](../../projects/ladakh-relations.md) shows how place entities, map views, and source references can be connected in a static DH site.
 
 ## Practice task
 

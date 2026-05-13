@@ -1,10 +1,10 @@
 ---
-title: "TextHarvester"
-description: "A small Python tool for harvesting readable web text into corpus-ready files."
+title: "Web text harvesting"
+description: "A small Python workflow for extracting readable text from web pages into corpus-ready files."
 tags: [projects, corpus, scraping, web, python]
 ---
 
-# TextHarvester
+# Web text harvesting
 
 <div class="answer-meta" markdown>
 <span>corpus building</span>
@@ -14,24 +14,24 @@ tags: [projects, corpus, scraping, web, python]
 
 ## What this project does
 
-TextHarvester collects readable text from web pages. For each URL, it downloads the HTML, removes obvious boilerplate, detects language, wraps the result in a minimal corpus-like structure, and saves one text file per URL.
+This example shows how a small Python script can collect readable text from web pages. For each URL, the workflow downloads HTML, removes obvious boilerplate, detects the main language, wraps the result in a minimal corpus-like structure, and saves one text file per URL.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/damjan-popic/text_harvester)
+[:octicons-mark-github-16: Open the source repository](https://github.com/damjan-popic/text_harvester)
 
 ## Use this when
 
-- you need a small web corpus for teaching, exploration, or a pilot study;
-- you want a transparent introduction to content extraction heuristics;
-- you need users to inspect how scraping, cleaning, language detection, and export are connected;
-- you want a lightweight alternative to a large crawler.
+- you need a small web corpus for teaching, exploration, or a pilot study.
+- you want a transparent introduction to content extraction heuristics.
+- you need to connect scraping, cleaning, language detection, and export in one inspectable script.
+- you want a lightweight alternative to a full crawler.
 
 ## What to inspect in the code
 
 - `textharvester.py` — the main script and importable functions.
-- `harvest()` — the function that returns the extracted result.
-- `save_result_as_txt()` — the export step.
-- HTML-cleaning and content-selection functions — useful for showing how boilerplate removal is only an informed guess.
-- Language-detection logic — useful for multilingual-page diagnostics.
+- `harvest()` — returns the extracted result for one URL.
+- `save_result_as_txt()` — writes the extracted text to disk.
+- HTML-cleaning and content-selection functions — useful for showing why boilerplate removal is heuristic.
+- language-detection logic — useful for multilingual-page diagnostics.
 
 ## Minimal run path
 
@@ -57,16 +57,11 @@ The file contains a minimal `<corpus><text ...>` wrapper with URL, title, downlo
 
 ## Practice use
 
-Ask users to harvest three pages from the same website. They should compare the extracted text with the original pages and mark:
-
-- what was kept correctly;
-- what boilerplate remained;
-- what useful content was removed;
-- whether language detection matches the main article text.
+Ask users to harvest three pages from the same website. They should compare the extracted text with the original pages and mark what was kept correctly, what boilerplate remained, what useful content was removed, and whether language detection matches the main article text.
 
 ## Limits and cautions
 
-- Content extraction is heuristic. It will fail on some layouts.
+- Content extraction is heuristic and will fail on some layouts.
 - Scraping should respect terms of use, access limits, robots policies, and copyright.
-- A small script is not a preservation system. Keep source URLs, timestamps, and notes about collection scope.
+- A small script is not a preservation system; keep source URLs, timestamps, and collection-scope notes.
 - Do not treat harvested text as neutral: menus, captions, comments, ads, and related links can slip into the corpus.

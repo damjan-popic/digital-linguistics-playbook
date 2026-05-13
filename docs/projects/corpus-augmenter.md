@@ -1,10 +1,10 @@
 ---
-title: "Corpus Augmenter"
-description: "A CLASSLA-based pipeline for converting and enriching TEI, VRT, and CoNLL-U corpora."
+title: "Corpus conversion and CLASSLA annotation"
+description: "A CLASSLA-based pipeline pattern for converting TEI/VRT data and enriching CoNLL-U annotation layers."
 tags: [projects, CLASSLA, CoNLL-U, TEI, annotation]
 ---
 
-# Corpus Augmenter
+# Corpus conversion and CLASSLA annotation
 
 <div class="answer-meta" markdown>
 <span>NLP</span>
@@ -14,15 +14,15 @@ tags: [projects, CLASSLA, CoNLL-U, TEI, annotation]
 
 ## What this project does
 
-Corpus Augmenter is a Slovene corpus-processing pipeline built around CLASSLA. It converts TEI or VRT/Vert inputs into CoNLL-U-like structures, fills missing annotation layers, combines files, and preserves existing annotation where possible.
+This example shows a corpus-processing pipeline built around CLASSLA. It converts TEI or VRT/Vert inputs into CoNLL-U-like structures, fills missing annotation layers, combines files, and preserves existing annotation where possible.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/damjan-popic/corpus_augmenter)
+[:octicons-mark-github-16: Open the source repository](https://github.com/damjan-popic/corpus_augmenter)
 
 ## Use this when
 
-- you have TEI, VRT, or partial CoNLL-U and need a more complete linguistic annotation layer;
-- you need to preserve manual annotations while filling missing fields;
-- you want to teach the difference between conversion, annotation, augmentation, and validation;
+- you have TEI, VRT, or partial CoNLL-U and need a more complete linguistic annotation layer.
+- you need to preserve manual annotations while filling missing fields.
+- you want to teach the difference between conversion, annotation, augmentation, and validation.
 - you need users to see why metadata comments matter in CoNLL-U workflows.
 
 ## What to inspect in the code
@@ -37,10 +37,10 @@ Corpus Augmenter is a Slovene corpus-processing pipeline built around CLASSLA. I
 ## Minimal run path
 
 ```bash
-python3 -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
-pip install --upgrade pip
-pip install classla rich
+python -m pip install --upgrade pip
+python -m pip install classla rich
 python -c "import classla; classla.download('sl')"
 ```
 
@@ -57,10 +57,10 @@ python run_classla.py \
 
 ## Relevant playbook workflows
 
-- [How do I annotate a corpus with UDPipe?](../scenarios/nlp/annotate-a-corpus-with-udpipe.md)
-- [How do I extract named entities with spaCy?](../scenarios/nlp/extract-named-entities-with-spacy.md)
+- [How do I install and test CLASSLA with Python 3.12?](../scenarios/nlp/install-and-test-classla.md)
+- [How do I annotate a small text with CLASSLA?](../scenarios/nlp/annotate-a-small-text-with-classla.md)
+- [How do I export CLASSLA results to CSV?](../scenarios/nlp/export-classla-results-to-csv.md)
 - [How do I package a corpus with FAIR metadata?](../scenarios/publishing/package-a-corpus-with-fair-metadata.md)
-- [How do I automate a linguistic workflow with a Makefile?](../scenarios/automation/automate-a-linguistic-workflow-with-a-makefile.md)
 
 ## Practice use
 
@@ -68,7 +68,7 @@ Give users a tiny TEI or CoNLL-U sample with missing layers. Ask them to predict
 
 ## Limits and cautions
 
-- CLASSLA model output is annotation, not truth. Manual checks remain necessary.
+- CLASSLA model output is annotation, not truth; manual checks remain necessary.
 - GPU support speeds up large corpora, but CPU runs may be slow.
 - Conversion scripts must be checked against the actual source schema.
 - Idempotence matters: re-running should not silently overwrite trusted annotations.

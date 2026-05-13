@@ -29,13 +29,14 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
-    - navigation.sections
-    - navigation.expand
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.path
     - navigation.top
     - navigation.footer
     - search.suggest
     - search.highlight
+    - search.share
     - content.action.edit
     - content.action.view
     - content.code.copy
@@ -72,130 +73,16 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/extra.css
 
+extra_javascript:
+  - assets/javascripts/site.js
+
+validation:
+  nav:
+    omitted_files: ignore
+
 nav:
   - Home: index.md
-  - Start here: getting-started.md
-  - Answers:
-    - All answers: scenarios/index.md
-    - Terminology:
-      - Overview: scenarios/terminology/index.md
-      - Turn an Excel glossary into TBX: scenarios/terminology/turn-an-excel-glossary-into-tbx.md
-      - Clean a glossary in Excel Power Query: scenarios/terminology/clean-a-glossary-in-excel-power-query.md
-      - Validate a TBX file before publishing it: scenarios/terminology/validate-a-tbx-file-before-publishing-it.md
-      - Convert TBX for SDL/RWS MultiTerm: scenarios/terminology/convert-tbx-for-sdl-rws-multiterm.md
-      - Version-control a termbase with Git: scenarios/terminology/version-control-a-termbase-with-git.md
-      - Run forbidden-term QA in a CAT tool: scenarios/terminology/run-forbidden-term-qa-in-a-cat-tool.md
-      - Extract term candidates with AntConc: scenarios/terminology/extract-term-candidates-with-antconc.md
-      - Generate terminology with Termostat: scenarios/terminology/generate-terminology-with-termostat.md
-    - CAT tools:
-      - Overview: scenarios/cat-tools/index.md
-      - Import a termbase into memoQ: scenarios/cat-tools/import-a-termbase-into-memoq.md
-      - Align bilingual documents with LF Aligner: scenarios/cat-tools/align-bilingual-documents-with-lf-aligner.md
-      - Build a translation memory with OmegaT: scenarios/cat-tools/build-a-translation-memory-with-omegat.md
-    - Subtitling:
-      - Overview: scenarios/subtitling/index.md
-      - Batch-convert subtitle formats: scenarios/subtitling/batch-convert-subtitle-formats.md
-      - Auto-time subtitles with Whisper: scenarios/subtitling/auto-time-subtitles-with-whisper.md
-      - Translate subtitles and package them with video: scenarios/subtitling/translate-subtitles-and-package-them-with-video.md
-      - Harvest bilingual subtitles responsibly: scenarios/subtitling/harvest-bilingual-subtitles-responsibly.md
-      - Burn subtitles into a video with FFmpeg: scenarios/subtitling/burn-subtitles-into-a-video-with-ffmpeg.md
-    - Automation:
-      - Overview: scenarios/automation/index.md
-      - Standardise project file names: scenarios/automation/standardise-project-file-names.md
-      - Make a custom stop-word list for spaCy: scenarios/automation/make-a-custom-stop-word-list-for-spacy.md
-      - Automate a linguistic workflow with a Makefile: scenarios/automation/automate-a-linguistic-workflow-with-a-makefile.md
-    - NLP:
-      - Overview: scenarios/nlp/index.md
-      - Python first steps:
-        - Install Python 3.12 for NLP work: scenarios/nlp/install-python-312-for-nlp.md
-        - Create a Python 3.12 virtual environment: scenarios/nlp/create-a-python-312-virtual-environment.md
-        - Install Python packages with pip: scenarios/nlp/install-python-packages-with-pip.md
-        - Run a Python script from the terminal: scenarios/nlp/run-a-python-script-from-terminal.md
-        - Read and write text files in Python: scenarios/nlp/read-and-write-text-files-in-python.md
-        - Read and write CSV files with pandas: scenarios/nlp/read-and-write-csv-files-with-pandas.md
-        - Structure a small Python NLP project: scenarios/nlp/structure-a-small-python-nlp-project.md
-        - Troubleshoot Python venv and pip problems: scenarios/nlp/troubleshoot-python-venv-and-pip.md
-        - Use the Python/NLP starter project: scenarios/nlp/use-the-python-nlp-starter-project.md
-      - CLASSLA first steps:
-        - Install and test CLASSLA with Python 3.12: scenarios/nlp/install-and-test-classla.md
-        - Annotate a small text with CLASSLA: scenarios/nlp/annotate-a-small-text-with-classla.md
-        - Export CLASSLA results to CSV: scenarios/nlp/export-classla-results-to-csv.md
-      - Existing NLP workflows:
-        - Annotate a corpus with UDPipe: scenarios/nlp/annotate-a-corpus-with-udpipe.md
-        - Compare meanings across languages with fastText embeddings: scenarios/nlp/compare-meanings-across-languages-with-fasttext-embeddings.md
-        - Extract named entities with spaCy: scenarios/nlp/extract-named-entities-with-spacy.md
-    - Corpora:
-      - Overview: scenarios/corpora/index.md
-      - Query a corpus with CQPweb: scenarios/corpora/query-a-corpus-with-cqpweb.md
-      - Scrape a single-topic website into a mini corpus: scenarios/corpora/scrape-a-single-topic-website-into-a-mini-corpus.md
-      - Filter Common Crawl with CC-Net: scenarios/corpora/filter-common-crawl-with-cc-net.md
-      - Deduplicate corpus text with MinHash: scenarios/corpora/deduplicate-corpus-text-with-minhash.md
-      - Filter a corpus by language with fastText: scenarios/corpora/filter-a-corpus-by-language-with-fasttext.md
-      - Sentence-align EuroParl with hunalign: scenarios/corpora/sentence-align-europarl-with-hunalign.md
-    - PDF & OCR:
-      - Overview: scenarios/pdf/index.md
-      - Bulk-download PDFs and OCR them: scenarios/pdf/bulk-download-pdfs-and-ocr-them.md
-    - Visualization:
-      - Overview: scenarios/visualization/index.md
-      - Visualise a frequency list with Voyant: scenarios/visualization/visualise-a-frequency-list-with-voyant.md
-      - Build a collocation graph from AntConc to Cytoscape: scenarios/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md
-      - Make a dispersion plot in LancsBox: scenarios/visualization/make-a-dispersion-plot-in-lancsbox.md
-      - Make an interactive term-frequency dashboard: scenarios/visualization/make-an-interactive-term-frequency-dashboard.md
-      - Create a sentence-similarity heat map: scenarios/visualization/create-a-sentence-similarity-heat-map.md
-      - Visualise uncertainty in humanities data: scenarios/visualization/visualise-uncertainty-in-humanities-data.md
-    - MT evaluation:
-      - Overview: scenarios/mt-eval/index.md
-      - Create back-translated data with OPUS-MT: scenarios/mt-eval/create-back-translated-data-with-opus-mt.md
-      - Evaluate machine translation with COMET: scenarios/mt-eval/evaluate-machine-translation-with-comet.md
-    - Audio:
-      - Overview: scenarios/audio/index.md
-      - Separate speakers with pyannote: scenarios/audio/separate-speakers-with-pyannote.md
-    - Publishing & FAIR data:
-      - Overview: scenarios/publishing/index.md
-      - Package a corpus with FAIR metadata: scenarios/publishing/package-a-corpus-with-fair-metadata.md
-      - Write a README for a humanities dataset: scenarios/publishing/write-a-readme-for-a-humanities-dataset.md
-    - Data wrangling:
-      - Overview: scenarios/data-wrangling/index.md
-      - Turn messy humanities notes into a reusable dataset: scenarios/data-wrangling/turn-messy-humanities-notes-into-a-reusable-dataset.md
-    - Digital editions:
-      - Overview: scenarios/editions/index.md
-      - Make a tiny digital edition of a historical text: scenarios/editions/make-a-tiny-digital-edition-of-a-historical-text.md
-    - Mapping:
-      - Overview: scenarios/mapping/index.md
-      - Map places mentioned in a text: scenarios/mapping/map-places-mentioned-in-a-text.md
-      - Build a simple cultural heritage map: scenarios/mapping/build-a-simple-cultural-heritage-map.md
-    - AI:
-      - Overview: scenarios/ai/index.md
-      - Audit AI output against source documents: scenarios/ai/audit-ai-output-against-source-documents.md
-    - Ethics:
-      - Overview: scenarios/ethics/index.md
-      - Decide whether a digitised source should be public: scenarios/ethics/decide-whether-a-digitised-source-should-be-public.md
-  - Projects & code:
-    - Overview: projects/index.md
-    - TextHarvester: projects/text-harvester.md
-    - Corpus Augmenter: projects/corpus-augmenter.md
-    - Wikivir: projects/wikivir.md
-    - Šolar lexical analysis: projects/korpus-solar-analysis.md
-    - Pracomul-SLC Analyzer: projects/pracomul.md
-    - Medieval NER: projects/medieval-ner.md
-    - Ladakh Relations: projects/ladakh-relations.md
-    - FiFi: projects/fifi.md
-    - Jezikovni svetovalec: projects/jezikovni-svetovalec.md
-    - Vejice Word Add-in: projects/vejice-add-in.md
-    - createAI: projects/createai.md
-    - Digital Linguist Kickstart: projects/digital-linguist-kickstart.md
-    - Digital Linguistics Playbook: projects/digital-linguistics-playbook.md
-  - Contribute:
-    - How to contribute: contribute/index.md
-    - Answer template: contribute/answer-template.md
-    - Topic template: contribute/topic-template.md
-    - Project page template: contribute/project-template.md
-    - Style guide: contribute/style-guide.md
-    - Data model: contribute/data-model.md
-  - Resources:
-    - Tool shelf: resources/tools.md
-    - Legacy how-to index: howto/index.md
-    - Glossary: resources/glossary.md
-    - Ethics checklist: resources/ethics-checklist.md
-  - Tags: tags.md
+  - Scenarios: scenarios/index.md
+  - Code examples: projects/index.md
+  - Contribute: contribute/index.md
   - About: about.md

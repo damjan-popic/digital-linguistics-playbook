@@ -1,10 +1,10 @@
 ---
-title: "Wikivir"
-description: "A reproducible pipeline for turning messy Slovene Wikisource material into an annotated research corpus."
+title: "Slovene Wikisource corpus build pipeline"
+description: "A reproducible pattern for turning messy Wikisource material into an annotated research corpus."
 tags: [projects, Wikisource, corpus, CLASSLA, topic-modeling]
 ---
 
-# Wikivir
+# Slovene Wikisource corpus build pipeline
 
 <div class="answer-meta" markdown>
 <span>large corpus</span>
@@ -14,15 +14,15 @@ tags: [projects, Wikisource, corpus, CLASSLA, topic-modeling]
 
 ## What this project does
 
-Wikivir is a build-and-analysis toolkit for a Slovene Wikisource corpus. It normalizes messy document headers, maps metadata tokens, enriches author and genre information, runs linguistic annotation, and prepares the corpus for downstream linguistic and digital-humanities analysis.
+This example is a build-and-analysis toolkit for a Slovene Wikisource corpus. It normalizes messy document headers, maps metadata tokens, enriches author and genre information, runs linguistic annotation, and prepares the corpus for downstream linguistic and digital-humanities analysis.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/damjan-popic/wikivir)
+[:octicons-mark-github-16: Open the source repository](https://github.com/damjan-popic/wikivir)
 
 ## Use this when
 
-- you want a full example of messy source material becoming a reusable corpus;
-- you need a case study in metadata normalization;
-- you want to compare manual curation, automatic mapping, and validation;
+- you want a full example of messy source material becoming a reusable corpus.
+- you need a case study in metadata normalization.
+- you want to compare manual curation, automatic mapping, and validation.
 - you want users to see why corpus pipelines need both scripts and human decisions.
 
 ## What to inspect in the code

@@ -1,93 +1,92 @@
 ---
-title: "Projects and code"
-description: "Worked examples that connect playbook workflows to public repositories."
-tags: [projects, code, repositories, examples]
+title: "Code examples"
+description: "Functional case studies that connect playbook workflows to public source repositories."
 ---
 
-# Projects and code
+# Code examples
 
-The playbook workflows are paired with real repositories wherever possible. These project pages do not replace the original READMEs; they explain **why the code matters**, **which files to inspect**, **what the outputs look like**, and **which playbook workflows the project supports**.
+These pages describe public repositories by **function**, not by repository nickname. The goal is to help readers move from a workflow to working code quickly: what the code does, which files to inspect, how to run a minimal example, what output to expect, and what limits matter.
 
-Use this section when you want to move from a general workflow to production-facing code.
+<div class="search-panel" markdown>
 
-## How to use a project page
+<a class="big-search-button" href="#" data-search-launcher>🔎 <span><strong>Search code examples and scenarios</strong> — try crawler, CLASSLA, NER, metadata, chatbot, Wikisource, or comma.</span></a>
 
-1. Read the project page first, not only the GitHub README.
-2. Check the **What to inspect** section before opening random files.
-3. Run the smallest safe example before touching real data.
-4. Read the **Limits and cautions** section before reusing data, models, crawlers, or source texts.
-5. Link back to the relevant playbook workflow when writing documentation or teaching materials.
-
-!!! warning "Code is usually safer than data"
-    Public code can often be reused, adapted, and cited. Public data is different. Corpora, interview transcripts, institutional documents, cultural heritage material, PDFs, student writing, and scraped website content may carry copyright, privacy, consent, or community-access restrictions. When in doubt, publish the workflow and a small legal sample, not the full source material.
+</div>
 
 ## Catalogue
 
 <div class="grid cards" markdown>
 
--   **TextHarvester**  
-    Harvest readable web text into corpus-ready files.  
-    [:octicons-arrow-right-24: View project](text-harvester.md)
+-   <span class="project-label">corpus building</span>  
+    **Web text harvesting**  
+    Extract readable web text into corpus-ready files.  
+    [:octicons-arrow-right-24: View](text-harvester.md)
 
--   **Corpus Augmenter**  
-    Convert and enrich TEI, VRT, and CoNLL-U corpora with CLASSLA.  
-    [:octicons-arrow-right-24: View project](corpus-augmenter.md)
+-   <span class="project-label">corpus annotation</span>  
+    **Corpus conversion and CLASSLA annotation**  
+    Convert TEI/VRT data and enrich CoNLL-U annotation layers.  
+    [:octicons-arrow-right-24: View](corpus-augmenter.md)
 
--   **Wikivir**  
-    Build and analyse a large Slovene Wikisource corpus.  
-    [:octicons-arrow-right-24: View project](wikivir.md)
+-   <span class="project-label">large corpus</span>  
+    **Slovene Wikisource corpus build pipeline**  
+    Normalize metadata, annotate, and prepare a large Wikisource-derived corpus.  
+    [:octicons-arrow-right-24: View](wikivir.md)
 
--   **Šolar lexical analysis**  
-    Reannotate Šolar safely and run lexical/syntactic analysis.  
-    [:octicons-arrow-right-24: View project](korpus-solar-analysis.md)
+-   <span class="project-label">learner corpus</span>  
+    **Learner-corpus lexical analysis**  
+    Preserve metadata while reannotating and analysing Šolar-style corpus data.  
+    [:octicons-arrow-right-24: View](korpus-solar-analysis.md)
 
--   **Pracomul-SLC Analyzer**  
-    Turn dialogue-corpus exports into tidy tables and aggregate measures.  
-    [:octicons-arrow-right-24: View project](pracomul.md)
+-   <span class="project-label">dialogue analysis</span>  
+    **Dialogue corpus tabulation and lexical-diversity analysis**  
+    Turn dialogue exports into token, turn, speaker, and aggregate tables.  
+    [:octicons-arrow-right-24: View](pracomul.md)
 
--   **Medieval NER**  
-    Design and evaluate NER for medieval notarial material.  
-    [:octicons-arrow-right-24: View project](medieval-ner.md)
+-   <span class="project-label">historical NLP</span>  
+    **Medieval notarial NER workflow**  
+    Combine rules, annotation, baselines, and model training for historical entity extraction.  
+    [:octicons-arrow-right-24: View](medieval-ner.md)
 
--   **Ladakh Relations**  
-    Publish a static knowledge graph, map, and corpus index.  
-    [:octicons-arrow-right-24: View project](ladakh-relations.md)
+-   <span class="project-label">DH publishing</span>  
+    **Static knowledge graph, map, and corpus index**  
+    Publish derived graph, map, and corpus-index data without a backend.  
+    [:octicons-arrow-right-24: View](ladakh-relations.md)
 
--   **FiFi**  
+-   <span class="project-label">crawler + chatbot</span>  
+    **Website crawler and chatbot corpus builder**  
     Crawl an institutional website into documents and retrieval chunks.  
-    [:octicons-arrow-right-24: View project](fifi.md)
+    [:octicons-arrow-right-24: View](fifi.md)
 
--   **Jezikovni svetovalec**  
-    Build a source-grounded language-advisor architecture.  
-    [:octicons-arrow-right-24: View project](jezikovni-svetovalec.md)
+-   <span class="project-label">source-grounded AI</span>  
+    **Source-grounded Slovenian language advisor**  
+    Maintain a searchable source corpus and persistent Markdown wiki for language advice.  
+    [:octicons-arrow-right-24: View](jezikovni-svetovalec.md)
 
--   **Vejice Word Add-in**  
-    Review Slovenian comma placement inside Microsoft Word.  
-    [:octicons-arrow-right-24: View project](vejice-add-in.md)
+-   <span class="project-label">writing tool</span>  
+    **Slovenian comma-checking Word add-in**  
+    Review comma placement with explicit local/remote service safety settings.  
+    [:octicons-arrow-right-24: View](vejice-add-in.md)
 
--   **createAI**  
-    Analyse user/AI interview transcript sections.  
-    [:octicons-arrow-right-24: View project](createai.md)
-
--   **Digital Linguist Kickstart**  
-    Minimal starter repository for a first sanity-check script.  
-    [:octicons-arrow-right-24: View project](digital-linguist-kickstart.md)
-
--   **Digital Linguistics Playbook**  
-    The MkDocs site that hosts this reference.  
-    [:octicons-arrow-right-24: View project](digital-linguistics-playbook.md)
+-   <span class="project-label">transcript analysis</span>  
+    **User/AI transcript analysis**  
+    Compare user and assistant sections with token-level and summary-level outputs.  
+    [:octicons-arrow-right-24: View](createai.md)
 
 </div>
+
+## Why some public repositories are not listed
+
+A repository is included here only when its public README or visible file structure makes its function clear enough to describe responsibly. Repositories without a public description, minimal run path, or clear reusable workflow are better left out of the production-facing catalogue until they are documented.
 
 ## Reuse checklist
 
 Before featuring or reusing a repository publicly, check:
 
-- the README explains the purpose and the minimal command;
-- dependencies are listed in `requirements.txt`, `pyproject.toml`, `package.json`, or similar;
-- sample data is legal to publish;
-- large/generated data is not accidentally committed;
-- private credentials, tokens, PDFs, transcripts, or local paths are not exposed;
-- expected outputs are named;
-- failure modes are documented;
+- the README explains the purpose and the minimal command.
+- dependencies are listed in `requirements.txt`, `pyproject.toml`, `package.json`, or similar.
+- sample data is legal to publish.
+- large or generated data is not accidentally committed.
+- private credentials, tokens, PDFs, transcripts, or local paths are not exposed.
+- expected outputs are named.
+- failure modes are documented.
 - license and citation expectations are clear.

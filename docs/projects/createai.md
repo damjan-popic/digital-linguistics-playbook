@@ -1,10 +1,10 @@
 ---
-title: "createAI"
-description: "A transcript-analysis workflow for user and AI interview sections."
+title: "User/AI transcript analysis"
+description: "A transcript-analysis workflow for comparing user and AI sections with token and summary outputs."
 tags: [projects, interviews, transcripts, Stanza, AI]
 ---
 
-# createAI
+# User/AI transcript analysis
 
 <div class="answer-meta" markdown>
 <span>transcripts</span>
@@ -14,15 +14,15 @@ tags: [projects, interviews, transcripts, Stanza, AI]
 
 ## What this project does
 
-createAI analyses interview transcripts split into user and AI sections. It produces token-level output, section summaries, lemma summaries, transcript summaries, and optional CoNLL-U exports.
+This example analyses interview transcripts split into user and AI sections. It produces token-level output, section summaries, lemma summaries, transcript summaries, and optional CoNLL-U exports.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/damjan-popic/createAI)
+[:octicons-mark-github-16: Open the source repository](https://github.com/damjan-popic/createAI)
 
 ## Use this when
 
-- you need to compare user and assistant language in structured transcripts;
-- you want to process transcript sections separately;
-- you need token-level and summary-level outputs from the same workflow;
+- you need to compare user and assistant language in structured transcripts.
+- you want to process transcript sections separately.
+- you need token-level and summary-level outputs from the same workflow.
 - you want a compact example of Stanza-based transcript annotation.
 
 ## What to inspect in the code

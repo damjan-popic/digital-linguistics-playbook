@@ -248,11 +248,11 @@ Options:
 - a small sample dataset;
 - a screenshot;
 - a notebook;
-- a project page in this playbook.
+- a code-example page in this playbook.
 
 Example:
 
-> See also: [TextHarvester](../projects/text-harvester.md), a small Python tool for harvesting readable web text into corpus-ready files.
+> See also: `[web text harvesting example](../../projects/text-harvester.md)`, a small Python workflow for harvesting readable web text into corpus-ready files. If you place your page somewhere other than `docs/scenarios/[category]/`, adjust the relative path.
 
 ## Practice task
 

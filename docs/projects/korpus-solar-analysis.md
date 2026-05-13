@@ -1,67 +1,63 @@
 ---
-title: "Šolar lexical analysis pipeline"
-description: "A project-specific pipeline for safe CLASSLA reannotation and lexical/syntactic analysis of Šolar data."
-tags: [projects, Šolar, CLASSLA, lexical-diversity, corpus-analysis]
+title: "Learner-corpus lexical analysis"
+description: "A Šolar-focused pipeline for safe reannotation, lexical richness, syntactic measures, collocations, and reports."
+tags: [projects, learner-corpus, CLASSLA, lexical-diversity, Slovene]
 ---
 
-# Šolar lexical analysis pipeline
+# Learner-corpus lexical analysis
 
 <div class="answer-meta" markdown>
-<span>corpus analysis</span>
-<span>reannotation</span>
-<span>reports</span>
+<span>learner corpus</span>
+<span>lexical analysis</span>
+<span>CLASSLA</span>
 </div>
 
 ## What this project does
 
-The Šolar lexical analysis pipeline reannotates Šolar CoNLL-U data with CLASSLA while preserving source IDs, sentence boundaries, token IDs, token forms, and metadata links. It then runs lexical, syntactic, collocation, statistical, plotting, and reporting workflows.
+This example shows a project-specific learner-corpus analysis pipeline. It reannotates Šolar CoNLL-U data with CLASSLA while preserving IDs, sentence boundaries, token forms, and metadata linkage, then calculates lexical diversity, lexical density, lexical sophistication, syntactic diversity, collocation candidates, statistics, plots, and reports.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/damjan-popic/korpus-solar-analysis)
+[:octicons-mark-github-16: Open the source repository](https://github.com/damjan-popic/korpus-solar-analysis)
 
 ## Use this when
 
-- you need a model example of ID-safe reannotation;
-- you want to compare original and regenerated annotation layers;
-- you need a corpus-analysis pipeline that produces tables, plots, and Markdown reports;
-- you want users to understand why metadata linkage can break during NLP processing.
+- you need to preserve metadata linkage during reannotation.
+- you want to connect NLP output to corpus-linguistic measures.
+- you need a realistic example of analysis outputs rather than only annotation.
+- you want users to see why generated IDs and broken metadata joins are serious problems.
 
 ## What to inspect in the code
 
-- `scripts/run_solar_pipeline.py` — full workflow runner.
-- `scripts/solar_reannotate.py` — ID-safe CLASSLA reannotation.
-- `scripts/check_solar_conllu.py` — sanity checks for CoNLL-U and metadata.
-- `scripts/solar_analysis.py` — quantitative analysis.
-- `scripts/build_report.py` — Markdown report generation.
-- `scripts/prepare_mwe_review.py` — manual-review sheet for MWE candidates.
-- `configs/` — one-command pipeline configuration.
+- `configs/` — reproducible analysis settings.
+- `src/solar3_lexical_analysis/` — core analysis code.
+- `scripts/` — command-line wrappers.
+- `data/metadata/solar-meta.tsv` — metadata join target.
+- `analysis/` and `reports/` — generated tables, plots, validation, and summary outputs.
+- `pyproject.toml` and `requirements.txt` — dependency model.
 
 ## Minimal run path
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python scripts/run_solar_pipeline.py \
-  --models-dir ~/classla_resources_shared \
-  --download-models
+Treat this as a project-specific pipeline. The minimal pattern to copy is:
+
+```text
+raw CoNLL-U + metadata → safe reannotation → validation → analysis tables → report
 ```
 
-The original corpus file must be placed where the README expects it. Do not assume the raw corpus is included.
+For a small local exercise, create a three-document CoNLL-U sample and verify that original sentence IDs survive every step.
 
 ## Relevant playbook workflows
 
-- [How do I annotate a corpus with UDPipe?](../scenarios/nlp/annotate-a-corpus-with-udpipe.md)
-- [How do I package a corpus with FAIR metadata?](../scenarios/publishing/package-a-corpus-with-fair-metadata.md)
-- [How do I build a collocation graph from AntConc to Cytoscape?](../scenarios/visualization/build-a-collocation-graph-from-antconc-to-cytoscape.md)
+- [How do I annotate a small text with CLASSLA?](../scenarios/nlp/annotate-a-small-text-with-classla.md)
+- [How do I export CLASSLA results to CSV?](../scenarios/nlp/export-classla-results-to-csv.md)
 - [How do I write a README for a humanities dataset?](../scenarios/publishing/write-a-readme-for-a-humanities-dataset.md)
+- [How do I visualise a frequency list with Voyant?](../scenarios/visualization/visualise-a-frequency-list-with-voyant.md)
 
 ## Practice use
 
-Show users two CoNLL-U snippets: one with preserved `sent_id` values and one with generated replacement IDs. Ask them to explain which one can still be joined to metadata and why.
+Ask users to design a validation checklist for a reannotation pipeline: what must stay unchanged, what may change, and what would make downstream analysis invalid.
 
 ## Limits and cautions
 
-- The pipeline is intentionally specific to Šolar metadata and research questions.
-- Some outputs are exploratory, especially MWE/collocation candidates.
-- Contact-zone or regional labels should be treated as coarse triage, not as standalone dialectological conclusions.
-- Reannotation changes the linguistic layer; it should be documented as a new version, not silently merged with the original.
+- The pipeline is deliberately specific to the Šolar corpus and its metadata model.
+- Lexical-diversity metrics are sensitive to text length and preprocessing.
+- Reannotation can improve consistency while still introducing model errors.
+- Generated reports should be interpreted with corpus design and metadata imbalance in mind.

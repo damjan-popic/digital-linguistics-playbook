@@ -1,28 +1,28 @@
 ---
-title: "Vejice Word Add-in"
-description: "A Microsoft Word add-in for reviewing Slovenian comma placement with safe-by-default service configuration."
+title: "Slovenian comma-checking Word add-in"
+description: "A Microsoft Word add-in pattern for reviewing Slovenian comma placement with safe-by-default service configuration."
 tags: [projects, Word-add-in, punctuation, Slovene, JavaScript]
 ---
 
-# Vejice Word Add-in
+# Slovenian comma-checking Word add-in
 
 <div class="answer-meta" markdown>
 <span>application code</span>
 <span>Word add-in</span>
-<span>Slovene punctuation</span>
+<span>privacy</span>
 </div>
 
 ## What this project does
 
-Vejice Word Add-in is a Microsoft Word add-in for reviewing Slovenian comma placement. The fork is configured with safety defaults: mock mode avoids sending document text out of the add-in, and remote services must be explicitly trusted or allowed.
+This example shows a Microsoft Word add-in for reviewing Slovenian comma placement. The fork is configured with safety defaults: mock mode avoids sending document text out of the add-in, and remote services must be explicitly trusted or allowed.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/damjan-popic/Vejice_add_in)
+[:octicons-mark-github-16: Open the source repository](https://github.com/damjan-popic/Vejice_add_in)
 
 ## Use this when
 
-- you want users to inspect a real language-technology application, not only scripts;
-- you need a privacy-aware example of local vs remote processing;
-- you want to discuss service configuration, manifests, tests, and build steps;
+- you want users to inspect a real language-technology application, not only scripts.
+- you need a privacy-aware example of local vs remote processing.
+- you want to discuss service configuration, manifests, tests, and build steps.
 - you need a concrete case for Slovenian punctuation support in writing tools.
 
 ## What to inspect in the code

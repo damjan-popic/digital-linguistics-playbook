@@ -1,67 +1,56 @@
 ---
-title: "Jezikovni svetovalec"
-description: "A source-grounded Slovenian language-advisor architecture with a persistent LLM-maintained wiki."
-tags: [projects, language-advisor, RAG, wiki, Slovene]
+title: "Source-grounded Slovenian language advisor"
+description: "A rights-cautious architecture for answering language questions from local sources and a persistent Markdown wiki."
+tags: [projects, RAG, language-advisor, Slovene, wiki]
 ---
 
-# Jezikovni svetovalec
+# Source-grounded Slovenian language advisor
 
 <div class="answer-meta" markdown>
 <span>language advisor</span>
-<span>source-grounded answers</span>
+<span>source grounding</span>
 <span>rights caution</span>
 </div>
 
 ## What this project does
 
-Jezikovni svetovalec is an architecture for answering Slovenian language questions from a local source corpus and maintaining a persistent LLM-supported wiki. It combines raw source layers, extracted corpus pages, a searchable index, context-building tools, agent instructions, and a durable Markdown wiki.
+This example shows an architecture for answering Slovenian language questions from a local source corpus and maintaining a persistent LLM-supported wiki. It combines raw source layers, extracted corpus pages, a searchable index, context-building tools, agent instructions, and durable Markdown wiki pages.
 
-[:octicons-mark-github-16: Open the repository](https://github.com/damjan-popic/jezikovni-svetovalec)
+[:octicons-mark-github-16: Open the source repository](https://github.com/damjan-popic/jezikovni-svetovalec)
 
 ## Use this when
 
-- you want to design a source-grounded language-advice system;
-- you need a model for separating raw sources, extracted source text, and generated wiki summaries;
-- you want to teach why answers should cite the source layer;
-- you need an example of a persistent knowledge base maintained alongside LLM workflows.
+- you want to design a source-grounded language-advice system.
+- you need to separate source material from generated summaries.
+- you want a concrete example of a persistent LLM-maintained Markdown wiki.
+- you need a cautionary case for copyright, local corpora, and private/public boundaries.
 
 ## What to inspect in the code
 
-- `data/raw/` — raw source PDFs, if present locally and lawfully available.
-- `data/corpus/` — extracted page-level and combined Markdown.
-- `data/index/search.sqlite` — full-text index.
-- `tools/search.py` — source search.
-- `tools/context.py` — context-pack building.
-- `tools/wiki_search.py` and `tools/wiki_lint.py` — persistent wiki maintenance.
-- `wiki/` — durable Markdown pages, log, and index.
-- `AGENTS.md`, `.agents/`, `.github/`, `CLAUDE.md` — agent instructions.
+- `wiki/` — durable summaries, rule pages, contradictions, glossary entries, and logged answers.
+- `wiki/index.md` — content-oriented index.
+- `wiki/log.md` — append-only maintenance log.
+- `tools/` — corpus search, context packs, wiki search, linting, and logging.
+- `data/index/search.sqlite` — full-text search index.
+- `AGENTS.md` and `.agents/skills/` — operating schema for AI agents.
 
 ## Minimal run path
 
-```bash
-python3 -m venv .venv
-. .venv/bin/activate
-pip install -e .
-python tools/search.py "vejica pred ki"
-python tools/context.py "Ali se Novo mesto piše z veliko začetnico?"
-python tools/wiki_search.py "naselbinska imena"
-python tools/wiki_lint.py
-```
+Treat this primarily as an architecture example. The public README explicitly frames the repository as course/private and source-dependent. For public reuse, copy the architecture and use sources that you have the right to redistribute or keep the source layer private.
 
 ## Relevant playbook workflows
 
 - [How do I audit AI output against source documents?](../scenarios/ai/audit-ai-output-against-source-documents.md)
 - [How do I write a README for a humanities dataset?](../scenarios/publishing/write-a-readme-for-a-humanities-dataset.md)
 - [How do I decide whether a digitised source should be public?](../scenarios/ethics/decide-whether-a-digitised-source-should-be-public.md)
-- [How do I package a corpus with FAIR metadata?](../scenarios/publishing/package-a-corpus-with-fair-metadata.md)
 
 ## Practice use
 
-Ask users to design a source-grounded answer protocol. For one language question, they should specify: source priority, citation format, source-vs-summary separation, update log entry, and what should happen when sources disagree.
+Ask users to design a source-grounded answer workflow: retrieve source passages, write a draft, cite exact passages, log unresolved questions, and update a persistent wiki page only after verification.
 
 ## Limits and cautions
 
-- The repository README explicitly treats source PDFs and extracted text as restricted course material unless redistribution rights are clear.
-- This project should be used publicly as an architecture pattern unless the source corpus has been legally cleared.
-- Source-grounded answers still require verification, especially for normative language questions.
-- Generated wiki summaries should never replace source citations.
+- The source corpus may contain copyrighted or course-provided material that is not redistributable.
+- Generated summaries should not replace source checking.
+- A language-advice system needs citation discipline and clear uncertainty handling.
+- Public documentation can describe the architecture without publishing restricted source texts.

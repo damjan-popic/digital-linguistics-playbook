@@ -27,7 +27,7 @@ Run every workflow on a tiny sample before scaling up. A five-line test file, on
 
 ## Move from workflow to code
 
-Use [Projects and code](projects/index.md) when you want to inspect a real repository related to a workflow. Project pages point to the relevant code files, expected outputs, reuse limits, and linked playbook questions.
+Use [Code examples](projects/index.md) when you want to inspect a real repository related to a workflow. Code-example pages point to the relevant code files, expected outputs, reuse limits, and linked playbook questions.
 
 ## Improve the playbook
 

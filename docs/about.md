@@ -4,7 +4,7 @@ The **Digital Linguistics Playbook** is an open reference for practical digital 
 
 It collects compact workflows rather than long tutorials. Each page focuses on a specific task, explains what is needed, outlines the steps, identifies the output, and names the checks or limitations that matter.
 
-The project catalogue adds a second layer: worked code examples that show how workflows appear in real repositories. These pages help readers inspect implementation choices without turning the playbook into a code dump.
+The code-examples catalogue adds a second layer: functional case studies that show how workflows appear in public repositories. These pages help readers inspect implementation choices without turning the playbook into a code dump.
 
 ## Principles
 

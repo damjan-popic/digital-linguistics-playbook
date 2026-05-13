@@ -60,7 +60,7 @@ Interactive heritage map with metadata.
 
 ## Worked example
 
-- [Ladakh Relations](../../projects/ladakh-relations.md) shows a static cultural-heritage graph and map with coordinate review and corpus links.
+- [static knowledge graph, map, and corpus index example](../../projects/ladakh-relations.md) shows a static cultural-heritage graph and map with coordinate review and corpus links.
 
 ## Practice task
 

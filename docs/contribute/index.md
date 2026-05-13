@@ -10,11 +10,11 @@ Use the [topic template](topic-template.md) for a complete Markdown structure, o
 python scripts/new_answer.py "How do I clean OCR text for corpus analysis?" --category corpora --difficulty beginner --tags OCR,corpus,cleaning
 ```
 
-Then edit the generated file. If the page is meant to point readers to real code, add a **Worked example** section and link to the relevant page in [Projects and code](../projects/index.md).
+Then edit the generated file. If the page is meant to point readers to real code, add a **Worked example** section and link to the relevant page in [Code examples](../projects/index.md).
 
-## Add a project page
+## Add a code-example page
 
-Use the [project page template](project-template.md) when documenting a repository as a worked code example. Project pages should explain what the repository does, what to inspect, how to run the smallest safe version, what outputs to expect, and what data or rights limitations apply.
+Use the [code-example page template](project-template.md) when documenting a repository as a worked code example. Code-example pages should explain what the repository does, what to inspect, how to run the smallest safe version, what outputs to expect, and what data or rights limitations apply.
 
 ## Check before opening a pull request
 

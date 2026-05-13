@@ -19,7 +19,7 @@ tags: [Python, Python 3.12, setup, NLP, beginner]
 
 You want a Python installation that can be used safely for small NLP projects. For this playbook path, use **Python 3.12.x** as the standard version.
 
-Do **not** use Python 3.13 or higher for these exercises unless a project page explicitly says it has been tested with that version. New Python releases are good, but NLP packages sometimes need time to catch up. The aim here is predictable teaching and reproducible work, not heroic dependency archaeology.
+Do **not** use Python 3.13 or higher for these exercises unless a code-example page explicitly says it has been tested with that version. New Python releases are good, but NLP packages sometimes need time to catch up. The aim here is predictable teaching and reproducible work, not heroic dependency archaeology.
 
 !!! quote "One-sentence version"
     Install Python 3.12, check that the terminal can find it, and only then create project-specific virtual environments.
