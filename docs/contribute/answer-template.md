@@ -55,7 +55,7 @@ Name the expected file, table, map, transcript, or report.
 - Trap one.
 - Trap two.
 
-## Classroom version
+## Practice task
 
-A short activity that lets students test or extend the workflow.
+A short exercise or test case that lets readers try or extend the workflow.
 ```

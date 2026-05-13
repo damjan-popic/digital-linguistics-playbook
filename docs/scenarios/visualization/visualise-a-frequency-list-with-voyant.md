@@ -54,7 +54,7 @@ Interactive visualization or exported image.
 - Ignoring corpus composition.
 - Using default stop words uncritically.
 
-## Classroom version
+## Practice task
 
 Students produce a “bad word cloud” and then repair it with better preprocessing and interpretation.
 

@@ -57,7 +57,7 @@ Folder of clean `.txt` files plus metadata.
 - Publishing copyrighted text without permission.
 - Losing provenance.
 
-## Classroom version
+## Practice task
 
 Students scrape nothing at first: they design the collection policy and metadata sheet before any download.
 

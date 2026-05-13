@@ -26,7 +26,7 @@ Use this before publishing, scraping, archiving, mapping, or using AI on cultura
 
 - Are AI-generated claims checked against sources?
 - Could generated output expose private data?
-- Are students told when AI use is allowed, required, or forbidden?
+- Are users told when AI use is allowed, required, or forbidden?
 
 ## Publication
 

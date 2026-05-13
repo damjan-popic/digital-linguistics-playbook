@@ -1,20 +1,21 @@
 # About
 
-The **Digital Linguistics Playbook** is an open, living FAQ for practical digital work in language, translation, corpus work, archives, and digital humanities.
+The **Digital Linguistics Playbook** is an open reference for practical digital work in language, translation, corpus analysis, archives, publishing, and digital humanities.
 
-It is intentionally modest: not a grand theory portal, not a tool museum, not a graveyard of 80-minute tutorials. The goal is to collect small, usable answers that help people get unstuck.
+It collects compact workflows rather than long tutorials. Each page focuses on a specific task, explains what is needed, outlines the steps, identifies the output, and names the checks or limitations that matter.
 
 ## Principles
 
-- **Question-first.** Start with the user’s problem, not the tool’s logo.
-- **Small workflows.** Give the shortest path that can be tested.
+- **Question-first.** Start with the task, not the tool.
+- **Small workflows.** Give a path that can be tested on a minimal example.
 - **Honest limits.** Mention failure modes, uncertainty, licensing, and ethics.
-- **Reusability.** Document inputs, outputs, and assumptions.
-- **Student-friendly, research-aware.** Beginner-readable does not mean sloppy.
+- **Reusability.** Document inputs, outputs, assumptions, and source provenance.
+- **Readable, research-aware writing.** Keep the language clear without hiding complexity.
 
 ## Who it is for
 
-- students in digital humanities, linguistics, translation, and language technology;
-- teachers looking for practical lab tasks;
-- researchers who need lightweight workflow reminders;
-- anyone who has ever stared at a folder of PDFs and whispered “why”.
+- researchers and practitioners working with language data;
+- translators, terminologists, editors, and localization specialists;
+- digital humanists, archivists, librarians, and cultural-heritage workers;
+- instructors, workshop leaders, and learners who need practical workflows;
+- anyone turning messy cultural or linguistic material into something searchable, reusable, or publishable.

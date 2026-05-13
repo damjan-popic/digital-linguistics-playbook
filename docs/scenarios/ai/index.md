@@ -1,6 +1,6 @@
 # AI
 
-LLM workflows, auditing, source criticism, and classroom evaluation.
+LLM workflows, auditing, source criticism, and evaluation.
 
 | Question | Difficulty | Time | Tags |
 |---|---|---|---|

@@ -56,7 +56,7 @@ Timed subtitle file.
 - Ignoring accessibility line length and reading speed.
 - Using a giant model on a slow machine without a reason.
 
-## Classroom version
+## Practice task
 
 Students compare raw ASR output with a corrected version and classify error types: names, numbers, punctuation, segmentation.
 

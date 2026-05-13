@@ -108,9 +108,9 @@ Name the expected output.
 - Trap one.
 - Trap two.
 
-## Classroom version
+## Practice task
 
-Describe a short classroom activity that tests or extends the workflow.
+Describe a short exercise or test case that lets readers try or extend the workflow.
 ''', encoding="utf-8")
     print(path.relative_to(ROOT))
 

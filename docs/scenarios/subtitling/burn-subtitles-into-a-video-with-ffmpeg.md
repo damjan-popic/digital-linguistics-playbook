@@ -56,7 +56,7 @@ You need hard subtitles that are permanently visible in the video.
 - Font or encoding problems.
 - Not checking final video.
 
-## Classroom version
+## Practice task
 
 Compare hard subtitles, soft subtitles, and captions. Students decide which is best for three use cases.
 

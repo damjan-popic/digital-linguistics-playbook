@@ -24,7 +24,7 @@ Say what was tested. Say what was not tested. A small verified example is worth 
 Mention ethics whenever the workflow touches:
 
 - living people;
-- student work;
+- unpublished or personal work;
 - oral histories;
 - copyrighted text, subtitles, or images;
 - family history or sensitive records;

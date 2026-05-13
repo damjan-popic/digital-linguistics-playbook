@@ -47,7 +47,7 @@ Ranked contrastive term list.
 
 - Is the reference corpus appropriate?
 - Are candidates actual terms or just topic words?
-- Can students explain why a term is salient?
+- Can the selected terms be explained as domain-relevant rather than merely frequent?
 
 ## Common traps
 
@@ -55,9 +55,9 @@ Ranked contrastive term list.
 - Keeping all statistically salient words.
 - Forgetting domain expert review.
 
-## Classroom version
+## Practice task
 
-Give half the class a medical corpus and half a legal corpus. Compare what “termhood” looks like.
+Compare a medical mini-corpus with a legal mini-corpus and document how “termhood” differs by domain.
 
 ## Useful extension
 

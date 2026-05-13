@@ -55,7 +55,7 @@ You need a first list of candidate terms from a domain corpus.
 - Ignoring spelling variants.
 - Exporting lists with no context examples.
 
-## Classroom version
+## Practice task
 
 Students build term lists from two mini corpora and compare which terms are domain-specific.
 

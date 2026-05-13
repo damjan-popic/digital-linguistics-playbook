@@ -57,7 +57,7 @@ A small digital edition page.
 - Treating transcription as neutral copying.
 - Publishing images without rights information.
 
-## Classroom version
+## Practice task
 
 Students transcribe the same short source and compare disagreements; the disagreements are the lesson.
 

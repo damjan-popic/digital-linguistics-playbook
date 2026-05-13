@@ -54,7 +54,7 @@ A cleaned sheet that can be refreshed when new data arrives.
 - Deleting “duplicates” that are actually different concepts.
 - Doing manual edits after Power Query and then losing them on refresh.
 
-## Classroom version
+## Practice task
 
 Run a “before/after autopsy”: groups document three cleaning decisions and one decision they are not sure about.
 

@@ -57,9 +57,9 @@ You have many scanned PDFs and need searchable text.
 - Ignoring columns, tables, and footnotes.
 - Not recording OCR settings.
 
-## Classroom version
+## Practice task
 
-Give students one difficult page and ask them to compare OCR settings; the winner is the most honest error report, not the prettiest text.
+Use one difficult page, compare OCR settings, and write an honest error report rather than only reporting the prettiest output.
 
 ## Useful extension
 

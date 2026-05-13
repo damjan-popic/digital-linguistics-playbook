@@ -5,7 +5,7 @@ repo_url: https://github.com/damjan-popic/digital-linguistics-playbook
 repo_name: damjan-popic/digital-linguistics-playbook
 edit_uri: edit/main/docs/
 
-copyright: Built as a living classroom FAQ for digital humanities.
+copyright: Practical workflows for digital linguistics and digital humanities.
 
 theme:
   name: material
@@ -155,12 +155,6 @@ nav:
     - Ethics:
       - Overview: scenarios/ethics/index.md
       - Decide whether a digitised source should be public: scenarios/ethics/decide-whether-a-digitised-source-should-be-public.md
-  - Classroom:
-    - Overview: classroom/index.md
-    - Sprint formats: classroom/sprints.md
-    - Question bank: classroom/question-bank.md
-    - Rubric: classroom/rubric.md
-    - Peer review: classroom/peer-review.md
   - Contribute:
     - How to contribute: contribute/index.md
     - Answer template: contribute/answer-template.md

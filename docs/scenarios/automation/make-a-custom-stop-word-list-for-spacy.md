@@ -56,7 +56,7 @@ Default stop-word lists remove too little, too much, or the wrong words for your
 - Removing negation words such as `not` when sentiment matters.
 - Hard-coding lists inside scripts.
 
-## Classroom version
+## Practice task
 
 Students build different stop-word lists for literary, legal, and social-media texts, then compare choices.
 

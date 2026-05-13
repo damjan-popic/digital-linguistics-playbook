@@ -56,9 +56,9 @@ Consistent file names that support sorting and automation.
 - Encoding too much information in the file name.
 - Changing names after scripts already depend on them.
 
-## Classroom version
+## Practice task
 
-Give students a messy folder listing and ask them to invent a naming scheme, then defend trade-offs.
+Use a messy folder listing, invent a naming scheme, and document the trade-offs.
 
 ## Useful extension
 

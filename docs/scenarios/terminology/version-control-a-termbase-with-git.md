@@ -56,9 +56,9 @@ A termbase with a transparent edit history.
 - Committing generated files that change on every export.
 - Merging terminology without editorial review.
 
-## Classroom version
+## Practice task
 
-Have students intentionally introduce bad edits, then recover the previous version with Git history.
+Introduce a controlled bad edit, commit it, and then recover the previous version using Git history.
 
 ## Useful extension
 

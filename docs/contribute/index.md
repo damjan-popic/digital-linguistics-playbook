@@ -25,6 +25,6 @@ mkdocs build --strict
 - Is the workflow tested on a tiny example?
 - Are failure modes named honestly?
 - Are rights, privacy, and source provenance addressed where needed?
-- Could a tired student follow it on a Thursday afternoon?
+- Could a tired reader follow it without extra explanation?
 
 If the answer to the last one is no, simplify.

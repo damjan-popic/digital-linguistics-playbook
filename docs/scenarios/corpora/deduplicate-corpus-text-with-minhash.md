@@ -55,7 +55,7 @@ Cleaned corpus plus deduplication report.
 - Deleting all repeated phrases in poetry or legal text.
 - Not reporting how much data was removed.
 
-## Classroom version
+## Practice task
 
 Students manually judge pairs first, then compare their intuition to MinHash results.
 

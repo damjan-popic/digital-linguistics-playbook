@@ -57,9 +57,9 @@ CSV with clear fields, uncertainty notes, and source references.
 - Deleting ambiguity to make data look cleaner.
 - Using comments instead of columns.
 
-## Classroom version
+## Practice task
 
-Give students one page of chaotic notes and ask each group to design a different schema; compare what each schema makes visible.
+Use one page of chaotic notes and design two different schemas; compare what each schema makes visible.
 
 ## Useful extension
 

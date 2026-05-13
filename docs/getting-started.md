@@ -1,34 +1,33 @@
 # Start here
 
-The Playbook is built around a simple format: **one question, one answer, one testable workflow**.
+The Playbook is organized around a simple format: **one question, one workflow, one verifiable output**.
 
-## For students
+## Find a workflow
 
-1. Pick a question from the [question bank](classroom/question-bank.md).
-2. Draft the answer using the [answer template](contribute/answer-template.md).
-3. Test the workflow on a tiny example.
-4. Add checks, traps, and an honest note about limits.
-5. Ask another group to test it.
+Use the navigation, tags, or search to find a page that matches your task. The best match is usually a concrete question, such as:
 
-## For teachers
+- How do I OCR a batch of scanned PDFs?
+- How do I map places mentioned in a text?
+- How do I turn messy notes into a reusable dataset?
+- How do I audit an AI-generated summary against source documents?
 
-Use the repo as a repeatable class project. Each semester can add a new layer:
+## Read before running
 
-- one cohort adds beginner answers;
-- another tests and revises them;
-- another adds screenshots or datasets;
-- another localises examples for Slovene or other languages.
+Before following a workflow, check:
 
-This makes the repository a never-ending story in the good way, not the “abandoned wiki from 2017” way.
+- what input data or source material is required;
+- which tools or accounts are needed;
+- what output the workflow should produce;
+- which checks are recommended before trusting the result;
+- whether there are rights, privacy, licensing, or provenance issues.
 
-## For maintainers
+## Work small first
 
-Keep the bar low enough for students to contribute, but high enough that pages are useful:
+Run every workflow on a tiny sample before scaling up. A five-line test file, one scanned page, or one short text can reveal problems before they become expensive.
 
-- every page must answer a practical question;
-- every page must include checks and common traps;
-- every tool-heavy page should state what was actually tested;
-- every data page should mention provenance, rights, and uncertainty.
+## Improve the playbook
+
+Every page can be refined. Useful contributions include clearer steps, better examples, screenshots, alternative tools, updated links, accessibility notes, and more precise warnings about failure modes.
 
 ## Local commands
 

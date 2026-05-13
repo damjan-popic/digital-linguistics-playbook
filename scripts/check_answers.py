@@ -22,7 +22,7 @@ REQUIRED_HEADINGS = [
     "## Output",
     "## Check yourself",
     "## Common traps",
-    "## Classroom version",
+    "## Practice task",
 ]
 
 

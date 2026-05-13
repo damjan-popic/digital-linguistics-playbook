@@ -55,7 +55,7 @@ KWIC lines, frequency tables, and reusable CQP queries.
 - Comparing raw counts across unequal subcorpora.
 - Forgetting that annotation errors affect results.
 
-## Classroom version
+## Practice task
 
 Students compete to write the shortest correct query for a small phenomenon, then explain false positives.
 

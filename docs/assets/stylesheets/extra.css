@@ -96,3 +96,7 @@
   text-transform: uppercase;
   letter-spacing: .06em;
 }
+
+.md-typeset .hero .headerlink {
+  display: none;
+}

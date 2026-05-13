@@ -56,7 +56,7 @@ Access decision: public, restricted, anonymized, delayed, or not published.
 - Assuming public record means ethical republication.
 - Letting convenience decide access.
 
-## Classroom version
+## Practice task
 
 Run a mock ethics board: each group argues for public, restricted, or no publication.
 

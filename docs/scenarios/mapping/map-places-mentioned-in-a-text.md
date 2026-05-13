@@ -57,7 +57,7 @@ Map with notes on place certainty.
 - Mapping vague places too confidently.
 - Forgetting that frequency is not importance.
 
-## Classroom version
+## Practice task
 
 Students map five places only. The constraint keeps the task interpretive rather than cartographic busywork.
 

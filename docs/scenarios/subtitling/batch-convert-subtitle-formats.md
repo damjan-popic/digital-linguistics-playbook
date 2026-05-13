@@ -54,7 +54,7 @@ Subtitle files in multiple formats.
 - Forgetting WebVTT header requirements.
 - Exporting without checking encoding.
 
-## Classroom version
+## Practice task
 
 Give each group a short subtitle file and a different target platform. They report what the platform accepts or rejects.
 

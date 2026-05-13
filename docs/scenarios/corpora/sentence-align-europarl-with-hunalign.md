@@ -56,7 +56,7 @@ Sentence-aligned parallel file.
 - Ignoring deleted or added paragraphs.
 - Using aligned data for training without quality sampling.
 
-## Classroom version
+## Practice task
 
 Students hand-align ten sentence pairs, then compare with automatic alignment and discuss why aligners fail.
 

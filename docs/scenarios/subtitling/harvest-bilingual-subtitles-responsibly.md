@@ -57,9 +57,9 @@ Subtitle metadata and aligned lines where permitted.
 - Publishing copyrighted subtitles openly.
 - Ignoring censorship, condensation, and adaptation.
 
-## Classroom version
+## Practice task
 
-Turn this into an ethics case study: students design a reuse policy before touching data.
+Turn this into an ethics case study: design a reuse policy before touching any data.
 
 ## Useful extension
 

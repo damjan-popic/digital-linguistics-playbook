@@ -56,9 +56,9 @@ Synthetic source text paired with original target text.
 - Adding huge noisy data without validation.
 - Training and testing on overlapping material.
 
-## Classroom version
+## Practice task
 
-Use a toy example: back-translate five sentences and ask students where synthetic wording looks unnatural.
+Use a toy example: back-translate five sentences and mark where the synthetic wording looks unnatural.
 
 ## Useful extension
 

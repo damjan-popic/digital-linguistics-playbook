@@ -55,9 +55,9 @@ You need tokens, lemmas, POS tags, or dependency parses for a corpus.
 - Treating automatic annotation as gold standard.
 - Processing huge files without chunking.
 
-## Classroom version
+## Practice task
 
-Give students five sentences with weird punctuation or old spelling and ask them to diagnose parser mistakes.
+Annotate five sentences with unusual punctuation or old spelling, then diagnose the parser mistakes.
 
 ## Useful extension
 

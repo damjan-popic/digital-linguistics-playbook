@@ -55,7 +55,7 @@ A validation log and a corrected TBX file.
 - Fixing exported XML while leaving the spreadsheet broken.
 - Ignoring character-encoding errors.
 
-## Classroom version
+## Practice task
 
 Students exchange TBX files and produce a friendly bug report: error, likely cause, suggested fix.
 

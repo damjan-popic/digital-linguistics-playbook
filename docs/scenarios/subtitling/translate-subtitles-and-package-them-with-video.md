@@ -56,7 +56,7 @@ MKV file with selectable subtitle track.
 - Burning subtitles in when a selectable track is better.
 - Forgetting language metadata.
 
-## Classroom version
+## Practice task
 
 Have groups translate the same 30-second clip and compare how each handles condensation.
 

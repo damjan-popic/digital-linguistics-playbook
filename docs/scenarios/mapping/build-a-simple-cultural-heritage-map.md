@@ -58,9 +58,9 @@ Interactive heritage map with metadata.
 - Forgetting rights for images.
 - Mapping only famous or easy-to-find objects.
 
-## Classroom version
+## Practice task
 
-Each student contributes one point. The class then audits whose heritage the map includes or excludes.
+Create a five-point sample map, then audit whose heritage the map includes or excludes.
 
 ## Useful extension
 

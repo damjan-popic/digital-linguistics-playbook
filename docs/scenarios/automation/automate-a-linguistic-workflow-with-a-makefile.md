@@ -56,9 +56,9 @@ Reproducible workflow controlled by `make`.
 - Using absolute paths tied to one computer.
 - Not separating generated files from source files.
 
-## Classroom version
+## Practice task
 
-Have students manually perform three steps, then convert them into a Makefile and break/fix dependencies.
+Manually perform three steps, convert them into a Makefile, and then test what happens when a dependency changes.
 
 ## Useful extension
 

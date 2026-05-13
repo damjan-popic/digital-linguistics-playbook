@@ -55,7 +55,7 @@ A MultiTerm termbase package for Trados users.
 - Dropping administrative fields such as source or reliability.
 - Sending a termbase without usage notes.
 
-## Classroom version
+## Practice task
 
 One group plays “vendor”, one “client”; the client rejects unclear mappings until the vendor documents them.
 

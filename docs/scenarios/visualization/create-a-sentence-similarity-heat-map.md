@@ -55,7 +55,7 @@ You want to see whether sentences, paragraphs, or documents cluster semantically
 - Comparing long and short texts without thought.
 - Forgetting that embeddings compress meaning.
 
-## Classroom version
+## Practice task
 
 Students predict which texts should cluster, then compare predictions to the heat map.
 

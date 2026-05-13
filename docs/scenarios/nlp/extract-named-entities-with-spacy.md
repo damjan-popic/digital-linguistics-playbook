@@ -56,7 +56,7 @@ You need a first pass at people, places, organizations, or other named entities 
 - Forgetting that “Paris” may be a person or place.
 - Counting mentions as people.
 
-## Classroom version
+## Practice task
 
 Students compare human and spaCy entity extraction on the same paragraph and build an error typology.
 

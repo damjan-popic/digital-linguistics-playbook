@@ -57,7 +57,7 @@ Visualization that shows uncertainty instead of flattening it.
 - Using vague labels like “maybe” without categories.
 - Making uncertainty visually invisible.
 
-## Classroom version
+## Practice task
 
 Students convert a fake “messy family history” table into a chart that refuses to lie.
 

@@ -55,9 +55,9 @@ Active termbase with live recognition in the translation grid.
 - Missing term statuses.
 - Leaving duplicate concepts unresolved.
 
-## Classroom version
+## Practice task
 
-Let students translate five sentences twice: once without the termbase, once with it. Compare speed and consistency.
+Translate five sentences twice: once without the termbase, once with it. Compare speed and consistency.
 
 ## Useful extension
 

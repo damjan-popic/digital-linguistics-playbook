@@ -1,25 +1,15 @@
 # Digital Linguistics Playbook
 
-A living, classroom-built FAQ for digital linguistics and digital humanities.
+An open reference for practical workflows in digital linguistics, language technology, corpus work, translation, archives, publishing, and digital humanities.
 
-The project collects short, practical answers to questions like:
+The project collects concise answers to questions such as:
 
 - How do I turn an Excel glossary into TBX?
 - How do I OCR a batch of scanned PDFs?
 - How do I map places mentioned in a text?
-- How do I audit an AI-generated summary against a source?
+- How do I audit an AI-generated summary against source documents?
 
-The site is built with **MkDocs Material** and designed for GitHub Pages. Students can contribute one small answer at a time, which keeps the project delightfully alive instead of becoming yet another noble-but-dead course repository.
-
-## What changed in this revamp
-
-- Reworked the site into a question-first FAQ/playbook.
-- Added a clean MkDocs Material setup with search, tags, cards, dark mode, and polished CSS.
-- Removed generated/local clutter from the source repo: `site/` and `venv/` now belong in `.gitignore`.
-- Added GitHub Pages deployment workflow.
-- Added contribution docs, answer template, style guide, rubric, classroom sprint formats, and a large question bank.
-- Expanded the original 38 scenarios into polished, consistent how-to pages and added broader digital-humanities starters.
-- Added scripts for creating and checking answer pages.
+The site is built with **MkDocs Material** and is designed for deployment with **GitHub Pages**.
 
 ## Local setup
 
@@ -35,6 +25,7 @@ Then open the local address shown in the terminal.
 ## Build the site
 
 ```bash
+python scripts/check_answers.py
 mkdocs build --strict
 ```
 
@@ -53,19 +44,13 @@ mkdocs build --strict
 
 ## Recommended GitHub Pages setup
 
-1. Push this repo to GitHub.
+1. Push this repository to GitHub.
 2. Go to **Settings → Pages**.
 3. Under **Build and deployment**, choose **GitHub Actions**.
 4. Push to `main`; the workflow in `.github/workflows/pages.yml` builds and publishes the site.
 
-## Contribution rhythm for classes
+## Contribution model
 
-A good cycle is:
+Each contribution should answer one practical question, provide a reproducible workflow, name the expected output, and include checks for common failure modes. Small, tested, well-documented procedures are more useful than broad unverified tutorials.
 
-1. Students claim a question from the question bank.
-2. They draft one answer with a tiny reproducible workflow.
-3. Another group tests it.
-4. The authors revise using the rubric.
-5. The class merges the answer and celebrates the tiny public good they just created.
-
-Small, tested, honest answers beat giant heroic tutorials every time.
+Teaching materials and workshop prompts are kept outside the published documentation tree in `teaching/`.

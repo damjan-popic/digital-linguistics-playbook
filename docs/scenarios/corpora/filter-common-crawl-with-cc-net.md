@@ -57,9 +57,9 @@ Deduplicated JSONL corpus.
 - Creating a giant corpus with unclear quality.
 - Ignoring legal and ethical constraints.
 
-## Classroom version
+## Practice task
 
-Use this as a design exercise rather than a full run: students plan filters and estimate failure modes.
+Use this as a design exercise before a full run: plan the filters and estimate likely failure modes.
 
 ## Useful extension
 

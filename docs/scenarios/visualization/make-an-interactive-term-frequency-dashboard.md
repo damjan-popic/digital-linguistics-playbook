@@ -54,7 +54,7 @@ Interactive dashboard or notebook.
 - Using interactivity to hide unclear assumptions.
 - Leaving stakeholders without export options.
 
-## Classroom version
+## Practice task
 
 Students turn a frequency table into a one-screen dashboard and write the caption first, then the chart.
 

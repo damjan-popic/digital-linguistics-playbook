@@ -56,7 +56,7 @@ QA report showing forbidden-term hits.
 - Failing to distinguish source quotes from translator choices.
 - Treating QA as a substitute for review.
 
-## Classroom version
+## Practice task
 
 Students build a micro style guide for one domain, then test whether QA catches violations in a short translation.
 

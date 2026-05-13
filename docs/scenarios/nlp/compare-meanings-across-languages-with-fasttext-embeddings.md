@@ -55,7 +55,7 @@ Similarity scores or vector table such as `vecs.tsv`.
 - Comparing languages without alignment.
 - Ignoring morphology and tokenization.
 
-## Classroom version
+## Practice task
 
 Students test a small bilingual concept set and identify where embeddings behave plausibly or weirdly.
 

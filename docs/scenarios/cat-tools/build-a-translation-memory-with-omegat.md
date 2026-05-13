@@ -55,7 +55,7 @@ Translation memory file such as `project_save.tmx`.
 - Keeping unreviewed machine translations as clean TM.
 - Ignoring segmentation rules.
 
-## Classroom version
+## Practice task
 
 Students translate a repeated-text mini document and watch how TM suggestions change after the first pass.
 

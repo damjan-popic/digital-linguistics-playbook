@@ -76,7 +76,7 @@ These are practical FAQ-style how-tos. Each page should tell you what the workfl
     `2` answers · [:octicons-arrow-right-24: Open](mapping/index.md)
 -   **AI**
 
-    LLM workflows, auditing, source criticism, and classroom evaluation.
+    LLM workflows, auditing, source criticism, and evaluation.
 
     `1` answers · [:octicons-arrow-right-24: Open](ai/index.md)
 -   **Ethics**

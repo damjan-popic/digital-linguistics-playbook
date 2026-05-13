@@ -55,7 +55,7 @@ You need a human-readable landing page for data that someone else might reuse.
 - Hiding uncertainty because it feels embarrassing.
 - Omitting rights information.
 
-## Classroom version
+## Practice task
 
 Students exchange datasets with no verbal explanation; if the partner gets lost, the README failed.
 

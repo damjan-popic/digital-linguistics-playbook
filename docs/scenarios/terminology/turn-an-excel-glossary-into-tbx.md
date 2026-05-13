@@ -55,9 +55,9 @@ You have a spreadsheet of terms and need a standards-friendly termbase that CAT 
 - Using colour as metadata; export will lose it.
 - Forgetting source/provenance columns.
 
-## Classroom version
+## Practice task
 
-Give pairs a deliberately ugly glossary. One student cleans; the other converts. They swap files and try to import each other’s TBX.
+Use a deliberately messy glossary. Clean it, convert it to TBX, then try importing the result in a terminology tool.
 
 ## Useful extension
 

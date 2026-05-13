@@ -55,7 +55,7 @@ Language-filtered corpus and a rejected/uncertain set.
 - Assuming confidence score is correctness.
 - Filtering before deciding what “language” means for the project.
 
-## Classroom version
+## Practice task
 
 Students inspect 50 borderline lines and argue whether “wrong language” is a technical or interpretive category.
 

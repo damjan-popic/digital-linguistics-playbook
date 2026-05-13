@@ -7,61 +7,50 @@ hide:
 
 # Digital Linguistics Playbook
 
-A living, classroom-built FAQ for digital linguistics and digital humanities: small answers, tested workflows, honest limits, and enough sparkle to keep the end-of-semester gremlins awake.
-
-<div class="pill-row" markdown>
-<span class="pill">46 starter answers</span>
-<span class="pill">classroom-ready</span>
-<span class="pill">GitHub Pages</span>
-<span class="pill">student contributions</span>
-<span class="pill">question-first</span>
-</div>
+Practical workflows for digital linguistics, language technology, corpus work, translation, archives, publishing, and digital humanities.
 
 </div>
 
-## Pick your route
+## Start using the playbook
 
 <div class="grid cards" markdown>
 
--   :material-lightbulb-on-outline: **Find an answer**
+-   :material-lightbulb-on-outline: **Browse workflows**
 
-    Browse practical FAQ-style recipes by category.
+    Find concise how-to guides by topic, from corpus work and terminology to mapping, AI auditing, and publishing.
 
     [:octicons-arrow-right-24: Open the playbook](scenarios/index.md)
 
--   :material-school-outline: **Use it in class**
+-   :material-map-signs: **Start here**
 
-    Run answer sprints, peer review, tool audits, and source-to-workflow labs.
+    Learn how the pages are structured and how to choose the right workflow for your task.
 
-    [:octicons-arrow-right-24: Classroom workflows](classroom/index.md)
+    [:octicons-arrow-right-24: Read the guide](getting-started.md)
 
--   :material-pencil-plus-outline: **Add a new answer**
+-   :material-pencil-plus-outline: **Contribute**
 
-    Use the template and style guide so every contribution feels consistent.
+    Add a new workflow or improve an existing one using the project template and style guide.
 
     [:octicons-arrow-right-24: Contribution guide](contribute/index.md)
 
--   :material-tools: **Choose a tool**
+-   :material-tools: **Tools and resources**
 
-    A quick shelf of recurring tools and what they are good for.
+    Check recurring tools, formats, and practical references used across the playbook.
 
     [:octicons-arrow-right-24: Tool shelf](resources/tools.md)
 
 </div>
 
-## What counts as a good answer?
+## What the playbook provides
 
-A good playbook entry answers one real question, gives the smallest working workflow, and tells readers where the workflow can break. It should be clear enough for a beginner to try, but honest enough for a researcher to trust.
+Each entry is designed as a compact, testable workflow. It states the problem, the required inputs, the tools, the steps, the expected output, and the checks needed before the result can be trusted.
 
-!!! tip "House style"
-    Prefer **one tested path** over five theoretical options. Add alternatives only when they change the decision.
+The emphasis is on practical reuse: clear procedures, named limitations, source awareness, and enough context to adapt a workflow without turning every page into a full tutorial.
 
-## Recently useful classroom prompts
+## Main areas
 
-- How do I turn messy archive notes into a reusable dataset?
-- How do I audit an AI summary against a primary source?
-- How do I map places mentioned in a literary text?
-- How do I write a README that makes a dataset reusable?
-- How do I show uncertainty without lying with a chart?
-
-[:material-format-list-checks: Browse the full question bank](classroom/question-bank.md)
+- corpora, NLP, and text processing;
+- terminology, translation technology, and machine translation evaluation;
+- data cleaning, metadata, and reproducible workflows;
+- mapping, visualization, digital editions, and publishing;
+- AI-assisted work, source criticism, ethics, and access.

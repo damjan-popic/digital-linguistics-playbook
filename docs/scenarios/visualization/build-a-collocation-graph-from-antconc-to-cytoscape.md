@@ -56,9 +56,9 @@ Interactive collocation network.
 - Forgetting to explain edge weights.
 - Choosing a threshold after the graph “looks nice”.
 
-## Classroom version
+## Practice task
 
-Give students the same collocation table and make them justify different filtering thresholds.
+Use the same collocation table with two different filtering thresholds, then justify which one better fits the research question.
 
 ## Useful extension
 

@@ -1,6 +1,6 @@
 ---
 title: "How do I audit AI output against source documents?"
-description: "You want students to use AI while still checking claims against evidence."
+description: "Use AI-assisted output while checking every claim against source evidence."
 category: "AI"
 difficulty: "beginner"
 time: "30–60 min"
@@ -17,7 +17,7 @@ tags: [AI, source criticism, evaluation, LLM]
 
 ## What you are trying to do
 
-You want students to use AI while still checking claims against evidence.
+You want to use AI-assisted output while still checking every claim against source evidence.
 
 !!! quote "One-sentence version"
     Start with a tiny sample, keep provenance, and only scale up once the workflow survives testing.
@@ -56,7 +56,7 @@ Audited AI output and error report.
 - Only checking errors that are easy to spot.
 - Forgetting omissions.
 
-## Classroom version
+## Practice task
 
 Make groups compete to produce the most useful error taxonomy, not the most “AI-friendly” prompt.
 

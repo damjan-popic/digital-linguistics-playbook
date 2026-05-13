@@ -56,7 +56,7 @@ You need a reference-based automatic MT evaluation score alongside human inspect
 - Ignoring domain and language-pair limitations.
 - Mixing segment order.
 
-## Classroom version
+## Practice task
 
 Students rank three MT outputs manually, then compare their rankings with COMET and debate disagreements.
 

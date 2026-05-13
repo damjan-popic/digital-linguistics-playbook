@@ -55,7 +55,7 @@ Speaker-turn file such as RTTM plus notes.
 - Ignoring background noise and crosstalk.
 - Publishing sensitive speech metadata.
 
-## Classroom version
+## Practice task
 
 Students diarise a short interview clip manually, then compare with automatic segmentation.
 

@@ -56,7 +56,7 @@ Corpus ZIP with README, metadata, and checksums.
 - Leaving out negative information, e.g. known OCR errors.
 - Treating metadata as admin fluff.
 
-## Classroom version
+## Practice task
 
 Students write a README for a tiny fake corpus and peer-review only the reuse instructions.
 

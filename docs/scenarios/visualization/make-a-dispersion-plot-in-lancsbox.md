@@ -55,7 +55,7 @@ PNG/SVG dispersion plot.
 - Ignoring inflected forms.
 - Treating one plot as proof without examples.
 
-## Classroom version
+## Practice task
 
 Students predict where a motif appears in a text, then compare prediction with the dispersion plot.
 

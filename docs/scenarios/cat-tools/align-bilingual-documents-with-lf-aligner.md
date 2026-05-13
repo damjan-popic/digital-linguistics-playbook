@@ -56,7 +56,7 @@ You have source and target documents and want a translation memory or parallel c
 - Forgetting to remove footers or page numbers.
 - Exporting without spot-checking.
 
-## Classroom version
+## Practice task
 
 Give groups the same bilingual text pair and compare the alignment errors they find.
 
