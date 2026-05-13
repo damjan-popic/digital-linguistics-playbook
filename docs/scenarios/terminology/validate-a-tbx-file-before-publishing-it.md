@@ -57,7 +57,7 @@ A validation log and a corrected TBX file.
 
 ## Practice task
 
-Students exchange TBX files and produce a friendly bug report: error, likely cause, suggested fix.
+Users exchange TBX files and produce a friendly bug report: error, likely cause, suggested fix.
 
 ## Useful extension
 

@@ -55,9 +55,14 @@ Language-filtered corpus and a rejected/uncertain set.
 - Assuming confidence score is correctness.
 - Filtering before deciding what “language” means for the project.
 
+## Worked examples
+
+- [TextHarvester](../../projects/text-harvester.md) includes a lightweight language-detection step for harvested web texts.
+- [FiFi](../../projects/fifi.md) keeps language and source metadata in document records and retrieval chunks.
+
 ## Practice task
 
-Students inspect 50 borderline lines and argue whether “wrong language” is a technical or interpretive category.
+Users inspect 50 borderline lines and argue whether “wrong language” is a technical or interpretive category.
 
 ## Useful extension
 

@@ -58,7 +58,7 @@ Default stop-word lists remove too little, too much, or the wrong words for your
 
 ## Practice task
 
-Students build different stop-word lists for literary, legal, and social-media texts, then compare choices.
+Users build different stop-word lists for literary, legal, and social-media texts, then compare choices.
 
 ## Useful extension
 

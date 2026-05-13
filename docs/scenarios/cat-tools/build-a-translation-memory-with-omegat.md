@@ -57,7 +57,7 @@ Translation memory file such as `project_save.tmx`.
 
 ## Practice task
 
-Students translate a repeated-text mini document and watch how TM suggestions change after the first pass.
+Users translate a repeated-text mini document and watch how TM suggestions change after the first pass.
 
 ## Useful extension
 

@@ -57,7 +57,7 @@ PNG/SVG dispersion plot.
 
 ## Practice task
 
-Students predict where a motif appears in a text, then compare prediction with the dispersion plot.
+Users predict where a motif appears in a text, then compare prediction with the dispersion plot.
 
 ## Useful extension
 

@@ -57,6 +57,12 @@ CSV with clear fields, uncertainty notes, and source references.
 - Deleting ambiguity to make data look cleaner.
 - Using comments instead of columns.
 
+## Worked examples
+
+- [Wikivir](../../projects/wikivir.md) shows metadata normalization for a large, messy Slovene Wikisource corpus.
+- [Ladakh Relations](../../projects/ladakh-relations.md) shows how cleaned entities and relations can become a graph, map, and corpus index.
+- [Pracomul-SLC Analyzer](../../projects/pracomul.md) shows how dialogue-corpus exports can become tidy token, turn, speaker, and aggregate tables.
+
 ## Practice task
 
 Use one page of chaotic notes and design two different schemas; compare what each schema makes visible.

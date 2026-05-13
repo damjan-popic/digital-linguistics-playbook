@@ -155,9 +155,26 @@ nav:
     - Ethics:
       - Overview: scenarios/ethics/index.md
       - Decide whether a digitised source should be public: scenarios/ethics/decide-whether-a-digitised-source-should-be-public.md
+  - Projects & code:
+    - Overview: projects/index.md
+    - TextHarvester: projects/text-harvester.md
+    - Corpus Augmenter: projects/corpus-augmenter.md
+    - Wikivir: projects/wikivir.md
+    - Šolar lexical analysis: projects/korpus-solar-analysis.md
+    - Pracomul-SLC Analyzer: projects/pracomul.md
+    - Medieval NER: projects/medieval-ner.md
+    - Ladakh Relations: projects/ladakh-relations.md
+    - FiFi: projects/fifi.md
+    - Jezikovni svetovalec: projects/jezikovni-svetovalec.md
+    - Vejice Word Add-in: projects/vejice-add-in.md
+    - createAI: projects/createai.md
+    - Digital Linguist Kickstart: projects/digital-linguist-kickstart.md
+    - Digital Linguistics Playbook: projects/digital-linguistics-playbook.md
   - Contribute:
     - How to contribute: contribute/index.md
     - Answer template: contribute/answer-template.md
+    - Topic template: contribute/topic-template.md
+    - Project page template: contribute/project-template.md
     - Style guide: contribute/style-guide.md
     - Data model: contribute/data-model.md
   - Resources:

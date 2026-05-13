@@ -11,6 +11,7 @@ build:
 
 check:
 	python scripts/check_answers.py
+	python scripts/check_projects.py
 
 clean:
 	rm -rf site .cache

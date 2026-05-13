@@ -1,6 +1,6 @@
 # Answer template
 
-Copy this structure for new pages.
+Copy this structure for new pages. For a more detailed version with writing instructions, checks, and submission guidance, use the [topic template](topic-template.md).
 
 ```markdown
 ---
@@ -54,6 +54,10 @@ Name the expected file, table, map, transcript, or report.
 
 - Trap one.
 - Trap two.
+
+## Worked example
+
+Link to a real repository, sample dataset, notebook, or project page if one exists.
 
 ## Practice task
 

@@ -57,9 +57,13 @@ Map with notes on place certainty.
 - Mapping vague places too confidently.
 - Forgetting that frequency is not importance.
 
+## Worked example
+
+- [Ladakh Relations](../../projects/ladakh-relations.md) shows how place entities, map views, and source references can be connected in a static DH site.
+
 ## Practice task
 
-Students map five places only. The constraint keeps the task interpretive rather than cartographic busywork.
+Users map five places only. The constraint keeps the task interpretive rather than cartographic busywork.
 
 ## Useful extension
 

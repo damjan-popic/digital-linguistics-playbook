@@ -56,9 +56,15 @@ Corpus ZIP with README, metadata, and checksums.
 - Leaving out negative information, e.g. known OCR errors.
 - Treating metadata as admin fluff.
 
+## Worked examples
+
+- [Wikivir](../../projects/wikivir.md) shows metadata normalization, validation, and corpus-level documentation for a large text collection.
+- [Corpus Augmenter](../../projects/corpus-augmenter.md) shows how conversion and annotation outputs should preserve metadata for traceability.
+- [FiFi](../../projects/fifi.md) shows document and chunk metadata for retrieval-ready website corpora.
+
 ## Practice task
 
-Students write a README for a tiny fake corpus and peer-review only the reuse instructions.
+Users write a README for a tiny fake corpus and peer-review only the reuse instructions.
 
 ## Useful extension
 

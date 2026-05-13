@@ -59,7 +59,7 @@ Visualization that shows uncertainty instead of flattening it.
 
 ## Practice task
 
-Students convert a fake “messy family history” table into a chart that refuses to lie.
+Users convert a fake “messy family history” table into a chart that refuses to lie.
 
 ## Useful extension
 

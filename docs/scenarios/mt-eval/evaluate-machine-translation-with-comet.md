@@ -58,7 +58,7 @@ You need a reference-based automatic MT evaluation score alongside human inspect
 
 ## Practice task
 
-Students rank three MT outputs manually, then compare their rankings with COMET and debate disagreements.
+Users rank three MT outputs manually, then compare their rankings with COMET and debate disagreements.
 
 ## Useful extension
 

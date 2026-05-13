@@ -4,12 +4,14 @@ The **Digital Linguistics Playbook** is an open reference for practical digital 
 
 It collects compact workflows rather than long tutorials. Each page focuses on a specific task, explains what is needed, outlines the steps, identifies the output, and names the checks or limitations that matter.
 
+The project catalogue adds a second layer: worked code examples that show how workflows appear in real repositories. These pages help readers inspect implementation choices without turning the playbook into a code dump.
+
 ## Principles
 
 - **Question-first.** Start with the task, not the tool.
 - **Small workflows.** Give a path that can be tested on a minimal example.
 - **Honest limits.** Mention failure modes, uncertainty, licensing, and ethics.
-- **Reusability.** Document inputs, outputs, assumptions, and source provenance.
+- **Reusability.** Document inputs, outputs, assumptions, source provenance, and relevant code examples.
 - **Readable, research-aware writing.** Keep the language clear without hiding complexity.
 
 ## Who it is for

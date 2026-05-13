@@ -57,7 +57,7 @@ Speaker-turn file such as RTTM plus notes.
 
 ## Practice task
 
-Students diarise a short interview clip manually, then compare with automatic segmentation.
+Users diarise a short interview clip manually, then compare with automatic segmentation.
 
 ## Useful extension
 

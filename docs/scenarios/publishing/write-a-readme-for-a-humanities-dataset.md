@@ -55,9 +55,14 @@ You need a human-readable landing page for data that someone else might reuse.
 - Hiding uncertainty because it feels embarrassing.
 - Omitting rights information.
 
+## Worked examples
+
+- [Projects and code](../../projects/index.md) collects repository pages that explain purpose, inputs, outputs, code files, limits, and reuse cautions.
+- [Pracomul-SLC Analyzer](../../projects/pracomul.md) is useful for thinking about data dictionaries, output tables, and reproducibility notes.
+
 ## Practice task
 
-Students exchange datasets with no verbal explanation; if the partner gets lost, the README failed.
+Users exchange datasets with no verbal explanation; if the partner gets lost, the README failed.
 
 ## Useful extension
 

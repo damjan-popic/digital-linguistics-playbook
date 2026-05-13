@@ -57,7 +57,7 @@ Cleaned corpus plus deduplication report.
 
 ## Practice task
 
-Students manually judge pairs first, then compare their intuition to MinHash results.
+Users manually judge pairs first, then compare their intuition to MinHash results.
 
 ## Useful extension
 

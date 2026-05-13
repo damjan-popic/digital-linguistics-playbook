@@ -25,9 +25,13 @@ Before following a workflow, check:
 
 Run every workflow on a tiny sample before scaling up. A five-line test file, one scanned page, or one short text can reveal problems before they become expensive.
 
+## Move from workflow to code
+
+Use [Projects and code](projects/index.md) when you want to inspect a real repository related to a workflow. Project pages point to the relevant code files, expected outputs, reuse limits, and linked playbook questions.
+
 ## Improve the playbook
 
-Every page can be refined. Useful contributions include clearer steps, better examples, screenshots, alternative tools, updated links, accessibility notes, and more precise warnings about failure modes.
+Every page can be refined. Useful contributions include clearer steps, better examples, screenshots, alternative tools, updated links, accessibility notes, project links, and more precise warnings about failure modes.
 
 ## Local commands
 

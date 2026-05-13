@@ -56,7 +56,7 @@ Interactive visualization or exported image.
 
 ## Practice task
 
-Students produce a “bad word cloud” and then repair it with better preprocessing and interpretation.
+Users produce a “bad word cloud” and then repair it with better preprocessing and interpretation.
 
 ## Useful extension
 

@@ -58,7 +58,7 @@ Timed subtitle file.
 
 ## Practice task
 
-Students compare raw ASR output with a corrected version and classify error types: names, numbers, punctuation, segmentation.
+Users compare raw ASR output with a corrected version and classify error types: names, numbers, punctuation, segmentation.
 
 ## Useful extension
 

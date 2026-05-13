@@ -57,9 +57,14 @@ Folder of clean `.txt` files plus metadata.
 - Publishing copyrighted text without permission.
 - Losing provenance.
 
+## Worked examples
+
+- [TextHarvester](../../projects/text-harvester.md) shows a compact Python implementation for harvesting readable web text into corpus-ready files.
+- [FiFi](../../projects/fifi.md) shows a larger crawler/chunking workflow for institutional website content and retrieval preparation.
+
 ## Practice task
 
-Students scrape nothing at first: they design the collection policy and metadata sheet before any download.
+Users scrape nothing at first: they design the collection policy and metadata sheet before any download.
 
 ## Useful extension
 

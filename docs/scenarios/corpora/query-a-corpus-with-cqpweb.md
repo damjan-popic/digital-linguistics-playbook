@@ -57,7 +57,7 @@ KWIC lines, frequency tables, and reusable CQP queries.
 
 ## Practice task
 
-Students compete to write the shortest correct query for a small phenomenon, then explain false positives.
+Users compete to write the shortest correct query for a small phenomenon, then explain false positives.
 
 ## Useful extension
 

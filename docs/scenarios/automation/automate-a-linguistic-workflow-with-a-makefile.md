@@ -56,6 +56,11 @@ Reproducible workflow controlled by `make`.
 - Using absolute paths tied to one computer.
 - Not separating generated files from source files.
 
+## Worked examples
+
+- [Digital Linguistics Playbook](../../projects/digital-linguistics-playbook.md) shows a documentation workflow with validation and GitHub Pages deployment.
+- [Šolar lexical analysis](../../projects/korpus-solar-analysis.md) shows a multi-step corpus pipeline with scripts, configs, reports, and outputs.
+
 ## Practice task
 
 Manually perform three steps, convert them into a Makefile, and then test what happens when a dependency changes.

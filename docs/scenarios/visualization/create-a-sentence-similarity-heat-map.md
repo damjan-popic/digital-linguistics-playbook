@@ -57,7 +57,7 @@ You want to see whether sentences, paragraphs, or documents cluster semantically
 
 ## Practice task
 
-Students predict which texts should cluster, then compare predictions to the heat map.
+Users predict which texts should cluster, then compare predictions to the heat map.
 
 ## Useful extension
 

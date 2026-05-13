@@ -57,7 +57,7 @@ Similarity scores or vector table such as `vecs.tsv`.
 
 ## Practice task
 
-Students test a small bilingual concept set and identify where embeddings behave plausibly or weirdly.
+Users test a small bilingual concept set and identify where embeddings behave plausibly or weirdly.
 
 ## Useful extension
 

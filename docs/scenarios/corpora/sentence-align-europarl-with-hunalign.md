@@ -58,7 +58,7 @@ Sentence-aligned parallel file.
 
 ## Practice task
 
-Students hand-align ten sentence pairs, then compare with automatic alignment and discuss why aligners fail.
+Users hand-align ten sentence pairs, then compare with automatic alignment and discuss why aligners fail.
 
 ## Useful extension
 

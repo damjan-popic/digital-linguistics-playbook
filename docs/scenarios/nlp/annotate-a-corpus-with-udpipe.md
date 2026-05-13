@@ -55,6 +55,11 @@ You need tokens, lemmas, POS tags, or dependency parses for a corpus.
 - Treating automatic annotation as gold standard.
 - Processing huge files without chunking.
 
+## Worked examples
+
+- [Corpus Augmenter](../../projects/corpus-augmenter.md) shows a CLASSLA-based pipeline for converting and enriching corpus annotation layers.
+- [Šolar lexical analysis](../../projects/korpus-solar-analysis.md) shows how to reannotate while preserving source IDs and metadata links.
+
 ## Practice task
 
 Annotate five sentences with unusual punctuation or old spelling, then diagnose the parser mistakes.

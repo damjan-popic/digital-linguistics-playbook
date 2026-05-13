@@ -5,7 +5,8 @@
 - Add screenshots or short GIFs for the most used workflows.
 - Add “tested on” metadata to pages where software versions matter.
 - Add a tiny example dataset for each category.
-- Turn student peer review into pull-request review.
+- Add screenshots, expected-output samples, and smoke-test commands to project pages where useful.
+- Add repository badges or status labels once each linked project has stable metadata and licensing.
 - Add multilingual examples, especially Slovene and other underrepresented languages.
 - Add a “known broken / needs update” label for tools that change often.
 

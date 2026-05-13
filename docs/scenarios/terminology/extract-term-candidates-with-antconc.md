@@ -57,7 +57,7 @@ You need a first list of candidate terms from a domain corpus.
 
 ## Practice task
 
-Students build term lists from two mini corpora and compare which terms are domain-specific.
+Users build term lists from two mini corpora and compare which terms are domain-specific.
 
 ## Useful extension
 

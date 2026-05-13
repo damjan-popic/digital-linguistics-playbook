@@ -58,7 +58,7 @@ You need hard subtitles that are permanently visible in the video.
 
 ## Practice task
 
-Compare hard subtitles, soft subtitles, and captions. Students decide which is best for three use cases.
+Compare hard subtitles, soft subtitles, and captions. Users decide which is best for three use cases.
 
 ## Useful extension
 

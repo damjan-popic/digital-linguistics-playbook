@@ -59,7 +59,7 @@ A small digital edition page.
 
 ## Practice task
 
-Students transcribe the same short source and compare disagreements; the disagreements are the lesson.
+Users transcribe the same short source and compare disagreements; the disagreements are the lesson.
 
 ## Useful extension
 

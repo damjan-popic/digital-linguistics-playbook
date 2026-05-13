@@ -56,9 +56,13 @@ You need a first pass at people, places, organizations, or other named entities 
 - Forgetting that “Paris” may be a person or place.
 - Counting mentions as people.
 
+## Worked example
+
+- [Medieval NER](../../projects/medieval-ner.md) shows why historical named-entity extraction often needs a domain-specific annotation schema, a baseline, and a manual error typology.
+
 ## Practice task
 
-Students compare human and spaCy entity extraction on the same paragraph and build an error typology.
+Users compare human and spaCy entity extraction on the same paragraph and build an error typology.
 
 ## Useful extension
 

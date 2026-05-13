@@ -58,6 +58,10 @@ Interactive heritage map with metadata.
 - Forgetting rights for images.
 - Mapping only famous or easy-to-find objects.
 
+## Worked example
+
+- [Ladakh Relations](../../projects/ladakh-relations.md) shows a static cultural-heritage graph and map with coordinate review and corpus links.
+
 ## Practice task
 
 Create a five-point sample map, then audit whose heritage the map includes or excludes.

@@ -56,7 +56,7 @@ Interactive dashboard or notebook.
 
 ## Practice task
 
-Students turn a frequency table into a one-screen dashboard and write the caption first, then the chart.
+Users turn a frequency table into a one-screen dashboard and write the caption first, then the chart.
 
 ## Useful extension
 

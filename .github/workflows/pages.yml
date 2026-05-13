@@ -33,6 +33,9 @@ jobs:
       - name: Validate answer pages
         run: python scripts/check_answers.py
 
+      - name: Validate project pages
+        run: python scripts/check_projects.py
+
       - name: Build MkDocs site
         run: mkdocs build --strict
 

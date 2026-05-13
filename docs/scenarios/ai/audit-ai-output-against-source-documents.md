@@ -56,6 +56,11 @@ Audited AI output and error report.
 - Only checking errors that are easy to spot.
 - Forgetting omissions.
 
+## Worked examples
+
+- [FiFi](../../projects/fifi.md) shows how website content can be crawled and chunked with source metadata before retrieval.
+- [Jezikovni svetovalec](../../projects/jezikovni-svetovalec.md) shows a source-grounded language-advisor architecture with a persistent Markdown wiki and citation-first workflow.
+
 ## Practice task
 
 Make groups compete to produce the most useful error taxonomy, not the most “AI-friendly” prompt.

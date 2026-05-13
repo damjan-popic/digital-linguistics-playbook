@@ -56,6 +56,12 @@ Access decision: public, restricted, anonymized, delayed, or not published.
 - Assuming public record means ethical republication.
 - Letting convenience decide access.
 
+## Worked examples
+
+- [Jezikovni svetovalec](../../projects/jezikovni-svetovalec.md) is a useful cautionary architecture for source-grounded work where source texts may not be redistributable.
+- [Ladakh Relations](../../projects/ladakh-relations.md) shows why public visibility, cultural context, and access decisions matter in heritage-oriented DH projects.
+- [Vejice Word Add-in](../../projects/vejice-add-in.md) shows how application code can separate safe mock mode from remote processing of user text.
+
 ## Practice task
 
 Run a mock ethics board: each group argues for public, restricted, or no publication.

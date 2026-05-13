@@ -58,7 +58,7 @@ QA report showing forbidden-term hits.
 
 ## Practice task
 
-Students build a micro style guide for one domain, then test whether QA catches violations in a short translation.
+Users build a micro style guide for one domain, then test whether QA catches violations in a short translation.
 
 ## Useful extension
 

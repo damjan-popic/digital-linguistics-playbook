@@ -2,7 +2,7 @@
 
 An open reference for practical workflows in digital linguistics, language technology, corpus work, translation, archives, publishing, and digital humanities.
 
-The project collects concise answers to questions such as:
+The project collects concise answers to practical questions and links selected workflows to real code repositories. Example questions include:
 
 - How do I turn an Excel glossary into TBX?
 - How do I OCR a batch of scanned PDFs?
@@ -29,13 +29,17 @@ python scripts/check_answers.py
 mkdocs build --strict
 ```
 
+## Project and code catalogue
+
+The public site includes a **Projects and code** section. Each project page links a repository to relevant playbook workflows and identifies what to inspect, how to run a minimal example, what outputs to expect, and which data or rights cautions apply.
+
 ## Create a new answer page
 
 ```bash
 python scripts/new_answer.py "How do I clean OCR text for corpus analysis?" --category corpora --difficulty beginner --tags OCR,corpus,cleaning
 ```
 
-Then edit the generated Markdown file and run:
+Then edit the generated Markdown file. For a detailed copy-paste structure, see `docs/contribute/topic-template.md`. Run:
 
 ```bash
 python scripts/check_answers.py
