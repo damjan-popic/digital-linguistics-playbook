@@ -1,3 +1,10 @@
+## Python/NLP first-steps hardening
+
+- Expanded the Python 3.12/NLP path into a more complete self-contained learning sequence.
+- Added a runnable starter project under `examples/python-nlp-first-steps/`.
+- Added a new workflow page for using the starter project.
+- Strengthened CLASSLA setup, annotation, CSV export, and troubleshooting guidance.
+
 # Changelog
 
 ## Revamp package

@@ -1,6 +1,6 @@
 ---
 title: "How do I install Python 3.12 for NLP work?"
-description: "A small, safe setup guide for installing Python 3.12 as the standard version for beginner NLP workflows."
+description: "Install and verify Python 3.12 as a stable baseline for beginner NLP workflows."
 category: "NLP"
 difficulty: "beginner"
 time: "20–40 min"
@@ -17,51 +17,111 @@ tags: [Python, Python 3.12, setup, NLP, beginner]
 
 ## What you are trying to do
 
-You want a stable Python setup for small NLP exercises. Use **Python 3.12** for this playbook path. Do not use Python 3.13 or higher unless your teacher explicitly asks you to, because some NLP packages may lag behind the newest Python release.
+You want a Python installation that can be used safely for small NLP projects. For this playbook path, use **Python 3.12.x** as the standard version.
+
+Do **not** use Python 3.13 or higher for these exercises unless a project page explicitly says it has been tested with that version. New Python releases are good, but NLP packages sometimes need time to catch up. The aim here is predictable teaching and reproducible work, not heroic dependency archaeology.
 
 !!! quote "One-sentence version"
     Install Python 3.12, check that the terminal can find it, and only then create project-specific virtual environments.
 
 ## You need
 
-- A terminal: Terminal, PowerShell, Windows Terminal, macOS Terminal, or a Linux shell.
-- Permission to install software on your computer.
+- A computer where you are allowed to install software.
+- A terminal:
+  - Windows: PowerShell or Windows Terminal.
+  - macOS: Terminal.
+  - Linux: any shell terminal.
 - Python **3.12.x**.
 - A project folder where you can safely experiment.
 
 ## Tools
 
-- [Python](https://www.python.org/): the programming language used in the workflows.
-- `python --version` or `python3.12 --version`: a command that checks which Python version you are running.
-- `py -3.12`: the Windows Python launcher command, useful when several Python versions are installed.
+- [Python](https://www.python.org/): the programming language used in these workflows.
+- `py -3.12`: Windows Python launcher command.
+- `python3.12`: common macOS/Linux command for Python 3.12.
+- `python --version`: checks the Python version after a virtual environment is active.
 
 ## Workflow
 
-1. Install Python 3.12 from the official Python website or your system package manager.
-2. Open a new terminal after installation.
-3. Check the version.
+### Step 1: Install Python 3.12
 
-On Windows, try:
+Choose one option for your operating system.
 
-```powershell
-py -3.12 --version
-```
+=== "Windows"
 
-On macOS or Linux, try:
+    1. Download the Python 3.12 installer from [python.org](https://www.python.org/downloads/).
+    2. Run the installer.
+    3. If the installer offers **Add python.exe to PATH**, enable it.
+    4. Keep the Python launcher enabled. It lets you run `py -3.12` even if several Python versions are installed.
+    5. Open a **new** PowerShell window after installation.
 
-```bash
-python3.12 --version
-```
+=== "macOS"
 
-4. Confirm that the result starts with `Python 3.12`.
-5. Create a project folder.
+    Use either the official installer from [python.org](https://www.python.org/downloads/) or Homebrew.
+
+    With the official installer, open a new Terminal window after installation and check the command below.
+
+    With Homebrew:
+
+    ```bash
+    brew install python@3.12
+    ```
+
+=== "Linux"
+
+    Use your distribution package manager if it provides Python 3.12.
+
+    On Ubuntu/Debian-style systems, try:
+
+    ```bash
+    sudo apt update
+    sudo apt install python3.12 python3.12-venv python3.12-pip
+    ```
+
+    Package names may differ between distributions. The important part is that `python3.12` and `venv` are available.
+
+### Step 2: Check the version
+
+=== "Windows"
+
+    ```powershell
+    py -3.12 --version
+    py -0p
+    ```
+
+    The first command should print something like:
+
+    ```text
+    Python 3.12.x
+    ```
+
+    The second command lists Python versions known to the Windows launcher.
+
+=== "macOS/Linux"
+
+    ```bash
+    python3.12 --version
+    which python3.12
+    ```
+
+    The version should start with:
+
+    ```text
+    Python 3.12
+    ```
+
+### Step 3: Create a project folder
 
 ```bash
 mkdir nlp-first-steps
 cd nlp-first-steps
 ```
 
-6. Do not install NLP packages globally. Use a virtual environment in the next step.
+This folder will later contain a virtual environment, scripts, input data, and output files.
+
+### Step 4: Do not install NLP packages globally
+
+At this stage, only confirm that Python 3.12 exists. Install packages later, inside a virtual environment.
 
 ## Output
 
@@ -70,26 +130,35 @@ A working Python 3.12 installation and a clean project folder ready for a virtua
 ## Check yourself
 
 - Does `py -3.12 --version` or `python3.12 --version` show Python 3.12?
-- Are you inside a project folder, not your Downloads folder or desktop chaos zone?
-- Can you explain which command starts Python 3.12 on your machine?
+- Can you open a new terminal and get the same result?
+- Do you know which command starts Python 3.12 on your machine?
+- Are you inside a project folder, not Downloads, Desktop, or a random system directory?
 
 ## Common traps
 
-- Installing the newest Python version and then discovering that an NLP package does not support it yet.
-- Installing packages globally instead of inside a virtual environment.
+- Installing Python 3.13 or higher and then hitting package compatibility problems.
+- Installing packages globally before creating a virtual environment.
 - Having several Python versions installed and not knowing which one the terminal is using.
-- Copying commands for Linux into Windows PowerShell without adapting them.
+- Copying Windows commands into macOS/Linux, or macOS/Linux commands into PowerShell.
+- Forgetting to open a new terminal after installation.
 
 ## Practice task
 
 Create a folder called `nlp-first-steps`, open a terminal inside it, and write down the exact command that shows Python 3.12 on your machine.
 
-## Useful extension
-
-Add a `README.md` file to the folder and record your Python version there:
+Then create a file called `README.md` and record the version:
 
 ```markdown
 # NLP first steps
 
 Python version used: 3.12.x
+Python command on this computer: py -3.12
 ```
+
+Change the command if you are on macOS or Linux.
+
+## Further reading or useful links
+
+- [Python downloads](https://www.python.org/downloads/)
+- [Python documentation: venv](https://docs.python.org/3/library/venv.html)
+- [Packaging Python Projects: installing packages](https://packaging.python.org/en/latest/tutorials/installing-packages/)

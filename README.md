@@ -29,6 +29,10 @@ python scripts/check_answers.py
 mkdocs build --strict
 ```
 
+## Python/NLP starter project
+
+The repository includes a runnable beginner project at `examples/python-nlp-first-steps/`. It contains sample text files, CSV data, Python scripts, and a small `requirements.txt` for the Python 3.12, pandas, and CLASSLA workflows.
+
 ## Project and code catalogue
 
 The public site includes a **Projects and code** section. Each project page links a repository to relevant playbook workflows and identifies what to inspect, how to run a minimal example, what outputs to expect, and which data or rights cautions apply.

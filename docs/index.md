@@ -66,5 +66,5 @@ The emphasis is on practical reuse: clear procedures, named limitations, source 
 
 ## New: Python and NLP first steps
 
-The NLP section now includes a beginner path from Python 3.12 installation and virtual environments to small scripts, CSV/text handling, and first CLASSLA annotation workflows. These pages are designed to be used directly in class without slides.
+The NLP section now includes a beginner path from Python 3.12 installation and virtual environments to small scripts, CSV/text handling, and first CLASSLA annotation workflows. The pages are self-contained so they can be followed as practical exercises without slide-based explanation.
 

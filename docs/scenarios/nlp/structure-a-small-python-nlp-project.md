@@ -1,6 +1,6 @@
 ---
 title: "How do I structure a small Python NLP project?"
-description: "A simple folder structure for beginner NLP projects that keeps input, scripts, and output separate."
+description: "Use a simple folder structure that keeps data, scripts, outputs, and environment files separate."
 category: "NLP"
 difficulty: "beginner"
 time: "20–40 min"
@@ -17,10 +17,12 @@ tags: [Python, project structure, reproducibility, NLP]
 
 ## What you are trying to do
 
-Small projects become confusing very quickly if data, scripts, outputs, notes, screenshots, and virtual environments all live in the same folder. This structure gives students a clean default.
+Small projects become confusing very quickly if data, scripts, outputs, notes, screenshots, and virtual environments all live in the same folder.
+
+This structure gives you a clean default for beginner NLP work.
 
 !!! quote "One-sentence version"
-    Separate raw data, scripts, outputs, documentation, and environment files from the beginning.
+    Separate raw data, processed data, scripts, outputs, documentation, and environment files from the beginning.
 
 ## You need
 
@@ -31,14 +33,14 @@ Small projects become confusing very quickly if data, scripts, outputs, notes, s
 
 ## Tools
 
-- Folders and clear file names.
+- Clear folder names.
 - `README.md` for human documentation.
 - `requirements.txt` for package documentation.
 - `.gitignore` for files that should not be committed.
 
 ## Workflow
 
-1. Create this structure:
+### Step 1: Create the folder structure
 
 ```text
 my-nlp-project/
@@ -52,28 +54,94 @@ my-nlp-project/
 └── .gitignore
 ```
 
-2. Put original files in `data/raw/`.
-3. Put cleaned or transformed files in `data/processed/`.
-4. Put Python scripts in `scripts/`.
-5. Put generated tables, charts, and reports in `output/`.
-6. Document the project in `README.md`.
-7. Add this to `.gitignore`:
+Commands:
+
+=== "Windows PowerShell"
+
+    ```powershell
+    mkdir my-nlp-project
+    cd my-nlp-project
+    mkdir data, data\raw, data\processed, output, scripts
+    New-Item README.md, requirements.txt, .gitignore -ItemType File
+    ```
+
+=== "macOS/Linux"
+
+    ```bash
+    mkdir -p my-nlp-project/data/raw my-nlp-project/data/processed my-nlp-project/output my-nlp-project/scripts
+    cd my-nlp-project
+    touch README.md requirements.txt .gitignore
+    ```
+
+### Step 2: Put files in the right places
+
+Use this rule:
+
+| Folder/file | Use |
+|---|---|
+| `data/raw/` | Original input files. Do not edit these directly. |
+| `data/processed/` | Cleaned or transformed files. |
+| `scripts/` | Python scripts. |
+| `output/` | Generated tables, reports, charts, logs, exports. |
+| `README.md` | Human explanation of the project. |
+| `requirements.txt` | Python packages needed to run the project. |
+| `.gitignore` | Local files excluded from Git. |
+
+### Step 3: Add a basic `.gitignore`
 
 ```text
 .venv/
 __pycache__/
 *.pyc
 .DS_Store
+output/*.tmp
 ```
 
-8. Add package names to `requirements.txt`.
+Do not ignore `output/` automatically unless you are sure outputs should not be shared. Some small outputs are useful for review.
+
+### Step 4: Add a short README
+
+````markdown
+# My NLP project
+
+## Goal
+
+Describe the task in one paragraph.
+
+## Python version
+
+Use Python 3.12.
+
+## Install
+
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+## Run
+
+```bash
+python scripts/name-of-script.py
+```
+
+## Data
+
+- `data/raw/`: original files
+- `data/processed/`: cleaned files
+- `output/`: generated results
+````
+
+For Windows, replace the environment commands with `py -3.12 -m venv .venv` and `.venv\Scripts\Activate.ps1`.
+
+### Step 5: Add package names to `requirements.txt`
 
 Example:
 
 ```text
 pandas
 classla
-matplotlib
 ```
 
 ## Output
@@ -86,18 +154,25 @@ A project folder that can be understood, shared, reviewed, and rerun.
 - Can another person find the script that produced a result?
 - Are generated files separate from original files?
 - Is `.venv/` excluded from Git?
+- Does the README explain how to install and run the project?
 
 ## Common traps
 
 - Editing raw data directly without preserving the original.
 - Saving scripts as `final_final_really_final.py`.
 - Putting output files into the same folder as input files.
-- Forgetting to document how the results were produced.
+- Forgetting to document how results were produced.
+- Committing a huge `.venv/` folder or local model cache.
 
 ## Practice task
 
-Create this folder structure for a small corpus of three texts. Add a README that explains what the data is and which script should be run first.
+Create this structure for a tiny corpus of three texts. Add a README that explains:
+
+- what the data is,
+- which Python version to use,
+- which script should be run first,
+- where the output appears.
 
 ## Useful extension
 
-Add a simple `Makefile` later, once the workflow has more than one repeated command.
+Once the workflow has more than one repeated command, add a `Makefile` or a small runner script. Do not add automation before you understand the manual steps.

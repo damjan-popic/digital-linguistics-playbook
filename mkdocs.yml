@@ -115,6 +115,7 @@ nav:
         - Read and write CSV files with pandas: scenarios/nlp/read-and-write-csv-files-with-pandas.md
         - Structure a small Python NLP project: scenarios/nlp/structure-a-small-python-nlp-project.md
         - Troubleshoot Python venv and pip problems: scenarios/nlp/troubleshoot-python-venv-and-pip.md
+        - Use the Python/NLP starter project: scenarios/nlp/use-the-python-nlp-starter-project.md
       - CLASSLA first steps:
         - Install and test CLASSLA with Python 3.12: scenarios/nlp/install-and-test-classla.md
         - Annotate a small text with CLASSLA: scenarios/nlp/annotate-a-small-text-with-classla.md

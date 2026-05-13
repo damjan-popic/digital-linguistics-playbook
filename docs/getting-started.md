@@ -50,7 +50,14 @@ Start with the small NLP path:
 2. [Create a Python 3.12 virtual environment](scenarios/nlp/create-a-python-312-virtual-environment.md)
 3. [Install Python packages with pip](scenarios/nlp/install-python-packages-with-pip.md)
 4. [Run a Python script from the terminal](scenarios/nlp/run-a-python-script-from-terminal.md)
-5. [Install and test CLASSLA with Python 3.12](scenarios/nlp/install-and-test-classla.md)
+5. [Read and write text files in Python](scenarios/nlp/read-and-write-text-files-in-python.md)
+6. [Read and write CSV files with pandas](scenarios/nlp/read-and-write-csv-files-with-pandas.md)
+7. [Structure a small Python NLP project](scenarios/nlp/structure-a-small-python-nlp-project.md)
+8. [Troubleshoot Python venv and pip problems](scenarios/nlp/troubleshoot-python-venv-and-pip.md)
+9. [Use the Python/NLP starter project](scenarios/nlp/use-the-python-nlp-starter-project.md)
+10. [Install and test CLASSLA with Python 3.12](scenarios/nlp/install-and-test-classla.md)
+11. [Annotate a small text with CLASSLA](scenarios/nlp/annotate-a-small-text-with-classla.md)
+12. [Export CLASSLA results to CSV](scenarios/nlp/export-classla-results-to-csv.md)
 
 Use Python 3.12 for these workflows. Do not jump to a newer Python version unless the project documentation says it is supported.
 
