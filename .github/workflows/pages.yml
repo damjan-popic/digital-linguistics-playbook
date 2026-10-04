@@ -39,14 +39,8 @@ jobs:
       - name: Build MkDocs site
         run: mkdocs build --strict
 
-      - name: Install personal site dependencies
-        run: pip install -r personal-site/requirements.txt
-
-      - name: Test personal site
-        run: python -m unittest discover -s personal-site -p 'test_*.py'
-
-      - name: Build bilingual personal site in its own directory
-        run: python personal-site/build.py --output site/damjan
+      - name: Check static legacy personal-page redirects
+        run: python scripts/check_personal_site_redirects.py --site-dir site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
@@ -63,3 +57,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Check out redirect checks
+        uses: actions/checkout@v4
+      - name: Verify public redirects and the Playbook homepage
+        run: python scripts/check_personal_site_redirects.py --live
