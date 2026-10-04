@@ -1,0 +1,48 @@
+# Shared settings. Edit the text pages in content/sl/ and content/en/.
+name: Damjan Popič
+url: https://damjan-popic.github.io/digital-linguistics-playbook/damjan/
+repository: https://github.com/damjan-popic/digital-linguistics-playbook
+branch: main
+source_path: personal-site/content
+email: damjan.popic@ff.uni-lj.si
+languages:
+  sl:
+    name: Slovenščina
+    tagline: Jezikoslovje · digitalna humanistika
+    nav:
+      bio: O meni
+      research: Raziskovanje
+      projects: Projekti
+      teaching: Poučevanje
+      students: Za študente
+      contact: Kontakt
+    skip: Na vsebino
+    navigation: Glavna navigacija
+    language: Jezik strani
+    edit: Uredi to stran
+    contents: Na tej strani
+    now: Na moji mizi
+    explore: Po strani
+    write: Pišite mi
+    home: Domov
+    footer: Osebna stran. Uradni profili ostajajo pri institucijah.
+  en:
+    name: English
+    tagline: Linguistics · digital humanities
+    nav:
+      bio: About
+      research: Research
+      projects: Projects
+      teaching: Teaching
+      students: For students
+      contact: Contact
+    skip: Skip to content
+    navigation: Main navigation
+    language: Page language
+    edit: Edit this page
+    contents: On this page
+    now: On my desk
+    explore: Explore
+    write: Get in touch
+    home: Home
+    footer: A personal site. Official profiles live with the institutions.

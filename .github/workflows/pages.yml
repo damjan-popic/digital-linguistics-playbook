@@ -39,6 +39,15 @@ jobs:
       - name: Build MkDocs site
         run: mkdocs build --strict
 
+      - name: Install personal site dependencies
+        run: pip install -r personal-site/requirements.txt
+
+      - name: Test personal site
+        run: python -m unittest discover -s personal-site -p 'test_*.py'
+
+      - name: Build bilingual personal site in its own directory
+        run: python personal-site/build.py --output site/damjan
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
